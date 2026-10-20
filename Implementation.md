@@ -65,6 +65,21 @@ At inspection time, `src/app/error.tsx` already had an uncommitted change adding
 - `npm.cmd run build`: application compilation and TypeScript passed, but page-data collection remains blocked by the existing empty SEO route modules (`robots.ts` and `sitemap.ts`). These are reserved for the SEO phase.
 - `npm install` reported 5 high-severity dependency advisories; no automatic dependency upgrades or audit fixes were applied.
 
+## Phase 4 — Homepage
+
+**Status: complete.** Implemented the homepage content and its necessary cards, carousel, CTA, and footer form. The page remains data-driven and only renders published creations.
+
+- Added the Bengali hero with editable-data fallback for the placeholder introduction and a graceful visual fallback for the missing hero image.
+- Added six category shelves in the order maintained by the category data. Each shelf displays up to six published creations, provides a category link and empty state, and uses a horizontally scrollable, keyboard-accessible card carousel when items exist.
+- Added creation cards with category, title, excerpt, image fallback, and the required category/slug detail URL.
+- Added a contact CTA banner with a graceful image fallback and a safe `/contact` fallback when scheduling is not configured.
+- Added a reusable Bengali contact form in the footer with required-field, email, and phone validation. Submitting valid values clearly states the form is a demo and no message was sent.
+- Browser checks confirmed all six shelves show empty states with the current all-draft seed data, no horizontal overflow at 320px, the mobile menu opens/closes with Escape, and a valid demo form submission does not claim delivery.
+- Contact validation checks passed for invalid and valid sample input.
+- `npx.cmd tsc --noEmit`: passed.
+- `npm.cmd run lint`: passed.
+- Production build compiles and passes TypeScript, but page-data collection is blocked by the pre-existing empty `sitemap.ts` route (no required export); `robots.ts` is also empty and emits a warning. These SEO routes remain outside this phase.
+
 ## Phases
 
 ### 1. Confirm the baseline and content readiness
@@ -95,10 +110,11 @@ At inspection time, `src/app/error.tsx` already had an uncommitted change adding
 
 ### 4. Implement the homepage
 
+- Completed: see the Phase 4 record above.
 - Build the hero, CTA, and six creation shelves in the required order: কবিতা, ছোটগল্প, বই, ইসলামী সংগীত, উপন্যাস, সংগীত ভিডিও.
 - Show up to six **published** creations in each shelf, with accessible scrolling controls and working detail links.
 - Handle empty shelves clearly; do not silently surface draft templates as real works.
-- Add a contact-form section in the footer with Bengali validation and an honest “not connected” demo response until a backend exists.
+- Added a footer contact form with Bengali validation and an honest “not connected” demo response until a backend exists.
 
 **Deliverable:** a responsive homepage that works with both empty and populated published content.
 

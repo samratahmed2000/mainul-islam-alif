@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ContactForm from "@/components/contact/ContactForm";
 import SocialLinks from "@/components/layout/SocialLinks";
 import Container from "@/components/ui/Container";
 import { getSiteSettings } from "@/lib/data";
@@ -27,9 +28,13 @@ export default function Footer() {
               <SocialLinks links={socialLinks} />
             </div>
           </div>
-          <div>
-            <h2 className="footer-contact-title">যোগাযোগ</h2>
-            <div className="footer-contact-list">
+          <div className="footer-form-column">
+            <h2 className="footer-contact-title">যোগাযোগ করুন</h2>
+            <p className="footer-form-description">
+              নিচের ফর্মটি প্রদর্শনীর জন্য; বার্তা পাঠাতে সরাসরি যোগাযোগের তথ্য ব্যবহার করুন।
+            </p>
+            <ContactForm />
+            <div className="footer-contact-list footer-direct-contact">
               {contactMethods.map((item) => (
                 <a
                   key={item.label}

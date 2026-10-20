@@ -36,6 +36,19 @@
 
 At inspection time, `src/app/error.tsx` already had an uncommitted change adding `"use client";`. It was not changed as part of Phase 1 and must be preserved unless the user directs otherwise.
 
+## Phase 2 — Typed content foundation
+
+**Status: complete.** Added strict domain models and one server-only repository for validated `db.json` content. Public creation records omit protected download URLs, and public query helpers return published work only.
+
+- Added site, profile, education, category, creation, product, media, SEO, and contact-form types.
+- Added runtime checks for required data shapes, status values, category references, unique category and creation identifiers/slugs, and category order.
+- Added centralized getters for site settings, profile, sorted categories, category lookup, published creations, category-filtered creations, and category-matched creation lookup.
+- Confirmed private product `fileUrl` values are not included in the public creation model.
+- `npx.cmd tsc --noEmit`: passed.
+- Targeted ESLint for the new data and type files: passed.
+- Query behavior check using an isolated in-memory published fixture: passed (category order, published-only filtering, category/slug matching, protected URL omission, and frozen data).
+- `npm.cmd run build`: compilation and TypeScript passed, but page-data collection failed because existing `src/app/robots.ts` has no default export; the empty `src/app/sitemap.ts` also produced a warning. These SEO route placeholders are outside Phase 2 and remain for the later SEO phase.
+
 ## Phases
 
 ### 1. Confirm the baseline and content readiness
@@ -46,10 +59,11 @@ At inspection time, `src/app/error.tsx` already had an uncommitted change adding
 
 ### 2. Build the typed content foundation
 
-- Define models for site settings, profile, categories, creations, products, media, and contact-form data.
-- Add one data-access layer for reading `db.json`; pages and components should use it rather than importing the JSON independently.
-- Add lightweight validation and safe handling for missing or malformed optional fields.
-- Centralize category ordering in the data, and filter public queries to published records.
+- Completed: see the Phase 2 record above.
+- Models now cover site settings, profile, categories, creations, products, media, SEO metadata, and contact-form data.
+- A single data-access layer reads and validates `db.json`.
+- Runtime guards check required fields, valid statuses, unique IDs/slugs, category references, and ordering.
+- Category ordering is resolved centrally, and public creation queries include only published records.
 
 **Deliverable:** reliable, typed data functions that can later be replaced by an API or database adapter.
 

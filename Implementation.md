@@ -1,10 +1,10 @@
 # Project Implementation Plan
 
-## Current baseline
+## Initial baseline (Phase 1)
 
 - The project uses `src/app/` with Next.js App Router; keep that routing root.
 - The core stack is present: Next.js 16.4.2, React 19.3, TypeScript, and Tailwind CSS. The package scripts include development, lint, and build commands; there is no dedicated type-check script.
-- Many route and component files exist, but key pages are still placeholders. The homepage, profile, creation listings, detail route, and contact form need implementation.
+- At the initial Phase 1 inspection, the homepage, profile, creation listings, detail route, and contact form were placeholders. Their status is tracked by the phase records below.
 - The supplied `db.json` contains 72 template creations. They are all marked `draft`; there are no published records. Keep them hidden from public pages unless verified content is supplied or a clearly documented demo mode is explicitly enabled.
 - `react-icons` is required by the project documents but is not listed in `package.json`.
 - The existing `README.md` has no content to guide setup or content editing.
@@ -80,6 +80,37 @@ At inspection time, `src/app/error.tsx` already had an uncommitted change adding
 - `npm.cmd run lint`: passed.
 - Production build compiles and passes TypeScript, but page-data collection is blocked by the pre-existing empty `sitemap.ts` route (no required export); `robots.ts` is also empty and emits a warning. These SEO routes remain outside this phase.
 
+## Phase 5 — Profile page
+
+**Status: complete.** Implemented the data-driven `/about` profile page using the existing Bengali design system.
+
+- Added the profile introduction with the name, designation, and site description as a fallback for the seed introduction placeholder.
+- Added responsive, reusable career, education, creative-life, interests, and personal-words sections with `react-icons`.
+- Suppressed placeholder career, creative-life, interest, and personal-statement text rather than presenting template copy as verified biography.
+- Education entries show the supplied degree and non-empty details only; blank institutions, years, and results are omitted.
+- The current seed has no verified career, creative-life, interests, or personal-word content, so those sections show clear Bengali “তথ্য সংযোজনাধীন” empty states.
+- Profile image fallback is used because the referenced image asset is not present.
+- `npx.cmd tsc --noEmit`: passed.
+- `npm.cmd run lint`: passed.
+- Browser inspection confirmed all five supplied education entries, pending states for unverified biography sections, and the profile image fallback. The responsive profile styles loaded after restarting the dev server; computed hero spacing and education columns changed at a narrow viewport, with no document-level horizontal overflow at either tested viewport.
+- `npm.cmd run build`: production compilation and TypeScript passed; page-data collection remains blocked by the pre-existing empty `robots.ts` and `sitemap.ts` route modules.
+
+## Phase 6 — Creations catalog and details
+
+**Status: complete.** Implemented the category catalog, category listings, and published-creation detail routes using the existing typed data layer.
+
+- `/creations` lists all six ordered categories with Bengali descriptions, icons, and published-work counts.
+- `/creations/[category]` renders the resolved category, published-work count, responsive creation grid, and a clear empty state. Unknown categories call `notFound()`.
+- `/creations/[category]/[slug]` resolves only published creations in the requested category, and includes breadcrumbs, creation content, up to three same-category related works, and route-specific metadata. Unknown, unpublished, and category-mismatched records call `notFound()`.
+- Added reusable category and creation grids, detail presentation, safe optional media rendering, and a sale-information panel that never exposes download URLs or implies checkout works.
+- Media renders only for valid HTTP(S) YouTube URLs or local/HTTP(S) audio sources; YouTube uses privacy-enhanced embeds. Missing or invalid sources are omitted.
+- Added a Bengali root not-found page with navigation back to the homepage or catalog.
+- The routes use `instant = false` so local data validation can run before route content is sent. Because Next.js streams metadata and may still start a response before a request-time `notFound()` is resolved, streamed not-found responses can have HTTP 200; Next.js adds `noindex`, and the branded not-found page is rendered. This follows the installed Next.js 16 behavior documented in `not-found.md`.
+- Browser checks confirmed all six categories, a zero-count empty category state, no layout overflow at the narrow tested viewport, and branded not-found content for unknown categories and draft creation URLs. The current seed contains no published creations, so populated detail, media, related-work, and sale-panel states cannot yet be exercised with project content.
+- `npx.cmd tsc --noEmit`: passed.
+- `npm.cmd run lint`: passed.
+- `npm.cmd run build`: compilation and TypeScript passed; page-data collection remains blocked by the pre-existing empty `robots.ts` and `sitemap.ts` modules.
+
 ## Phases
 
 ### 1. Confirm the baseline and content readiness
@@ -120,6 +151,7 @@ At inspection time, `src/app/error.tsx` already had an uncommitted change adding
 
 ### 5. Implement the profile page
 
+- Completed: see the Phase 5 record above.
 - Build the introduction, professional journey, education, creative-life, interests, and “আমার কিছু কথা” sections from profile data.
 - Suppress blank or placeholder facts rather than presenting them as verified biographical information.
 - Use reusable, data-driven cards and responsive layouts.
@@ -128,6 +160,7 @@ At inspection time, `src/app/error.tsx` already had an uncommitted change adding
 
 ### 6. Implement the creations catalog and details
 
+- Completed: see the Phase 6 record above.
 - Build `/creations` with the six categories, responsive grids, and useful empty states.
 - Build `/creations/[category]` with category resolution, published-item counts, and all matching published works.
 - Build `/creations/[category]/[slug]` with details, breadcrumbs, related works, and optional media only when valid sources exist.

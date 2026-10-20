@@ -1,0 +1,2831 @@
+{
+  "site": {
+    "name": "মাইনুল ইসলাম আলিফ",
+    "designation": "ব্যাংকার • লেখক • ইসলামী সংগীতশিল্পী",
+    "tagline": "শব্দে, সুরে ও জীবনের অভিজ্ঞতায়",
+    "language": "bn",
+    "description": "একজন ব্যাংকার, লেখক ও ইসলামী সংগীতশিল্পীর ব্যক্তিগত পরিচিতি এবং সৃষ্টিকর্মের ডিজিটাল সংগ্রহশালা।",
+    "logo": "/images/logo.svg",
+    "heroImage": "/images/profile/hero.jpg",
+    "profileImage": "/images/profile/profile.jpg",
+    "ctaImage": "/images/cta/cta.jpg",
+    "socialLinks": {
+      "facebook": "https://web.facebook.com/mainulislam.alif",
+      "youtube": "https://www.youtube.com/@mainul1983",
+      "instagram": "https://www.instagram.com/mainulislamalifofficial",
+      "whatsapp": "+8801718271702"
+    },
+    "contact": {
+      "email": "rudduremegh@gmail.com",
+      "phone": "+8801718271702",
+      "address": "Gazipur, Dhaka, Bangladesh, 1720",
+      "availability": "যোগাযোগের মাধ্যমে সময় নির্ধারণ করুন"
+    },
+    "scheduleUrl": "",
+    "currency": "BDT"
+  },
+  "profile": {
+    "intro": "এখানে লেখকের যাচাইকৃত সংক্ষিপ্ত পরিচিতি যোগ করুন।",
+    "background": "এখানে পারিবারিক ও ব্যক্তিগত পটভূমির তথ্য যোগ করুন।",
+    "personality": "এখানে ব্যক্তিত্বের বর্ণনা যোগ করুন।",
+    "professionalSummary": "এখানে পেশাগত জীবনের সারাংশ যোগ করুন।",
+    "writingAndMusicOverview": "এখানে লেখালেখি ও ইসলামী সংগীতচর্চার পরিচিতি যোগ করুন।",
+    "professionalJourney": [
+      {
+        "id": "career-1",
+        "title": "প্রাথমিক কর্মজীবন",
+        "organization": "",
+        "period": "",
+        "description": "যাচাইকৃত তথ্য যোগ করুন।",
+        "icon": "BriefcaseBusiness"
+      },
+      {
+        "id": "career-2",
+        "title": "দায়িত্ব ও দক্ষতার বিকাশ",
+        "organization": "",
+        "period": "",
+        "description": "যাচাইকৃত তথ্য যোগ করুন।",
+        "icon": "TrendingUp"
+      },
+      {
+        "id": "career-3",
+        "title": "বর্তমান পেশাগত ভূমিকা",
+        "organization": "",
+        "period": "",
+        "description": "যাচাইকৃত তথ্য যোগ করুন।",
+        "icon": "Building2"
+      },
+      {
+        "id": "career-4",
+        "title": "লেখালেখির যাত্রা",
+        "organization": "",
+        "period": "",
+        "description": "যাচাইকৃত তথ্য যোগ করুন।",
+        "icon": "PenLine"
+      },
+      {
+        "id": "career-5",
+        "title": "সৃজনশীল কাজ ও ভবিষ্যৎ লক্ষ্য",
+        "organization": "",
+        "period": "",
+        "description": "যাচাইকৃত তথ্য যোগ করুন।",
+        "icon": "Sparkles"
+      }
+    ],
+    "education": [
+      {
+        "id": "edu-1",
+        "degree": "ব্যাংকিং ও ফাইন্যান্স",
+        "institution": "",
+        "department": "",
+        "year": "",
+        "result": "",
+        "icon": "GraduationCap"
+      },
+      {
+        "id": "edu-2",
+        "degree": "এমএসসি — রসায়ন",
+        "institution": "",
+        "department": "রসায়ন",
+        "year": "",
+        "result": "",
+        "icon": "FlaskConical"
+      },
+      {
+        "id": "edu-3",
+        "degree": "বিএসসি — রসায়ন",
+        "institution": "",
+        "department": "রসায়ন",
+        "year": "",
+        "result": "",
+        "icon": "BookOpen"
+      },
+      {
+        "id": "edu-4",
+        "degree": "এইচএসসি — বিজ্ঞান",
+        "institution": "",
+        "department": "বিজ্ঞান",
+        "year": "",
+        "result": "",
+        "icon": "Atom"
+      },
+      {
+        "id": "edu-5",
+        "degree": "এসএসসি — বিজ্ঞান",
+        "institution": "",
+        "department": "বিজ্ঞান",
+        "year": "",
+        "result": "",
+        "icon": "School"
+      }
+    ],
+    "creativeLife": [
+      {
+        "id": "creative-1",
+        "title": "লেখালেখিতে আসার গল্প",
+        "description": "লেখকের নিজস্ব বক্তব্য যোগ করুন।",
+        "icon": "Feather"
+      },
+      {
+        "id": "creative-2",
+        "title": "অনুপ্রেরণা",
+        "description": "লেখকের নিজস্ব বক্তব্য যোগ করুন।",
+        "icon": "Lightbulb"
+      },
+      {
+        "id": "creative-3",
+        "title": "প্রিয় বিষয়",
+        "description": "লেখকের নিজস্ব বক্তব্য যোগ করুন।",
+        "icon": "Heart"
+      },
+      {
+        "id": "creative-4",
+        "title": "ভবিষ্যৎ পরিকল্পনা",
+        "description": "লেখকের নিজস্ব বক্তব্য যোগ করুন।",
+        "icon": "Compass"
+      }
+    ],
+    "interests": [
+      {
+        "id": "interest-1",
+        "title": "পড়া ও লেখা",
+        "description": "ব্যক্তির প্রকৃত পছন্দ অনুযায়ী সম্পাদনা করুন।",
+        "icon": "BookOpen"
+      },
+      {
+        "id": "interest-2",
+        "title": "ইসলামী সংগীত",
+        "description": "ব্যক্তির প্রকৃত পছন্দ অনুযায়ী সম্পাদনা করুন।",
+        "icon": "Music"
+      },
+      {
+        "id": "interest-3",
+        "title": "সৃজনশীলতা",
+        "description": "ব্যক্তির প্রকৃত পছন্দ অনুযায়ী সম্পাদনা করুন।",
+        "icon": "Palette"
+      },
+      {
+        "id": "interest-4",
+        "title": "জ্ঞানচর্চা",
+        "description": "ব্যক্তির প্রকৃত পছন্দ অনুযায়ী সম্পাদনা করুন।",
+        "icon": "Brain"
+      }
+    ],
+    "personalWords": [
+      "এখানে লেখকের নিজের ভাষায় প্রথম অনুচ্ছেদ যোগ করুন।",
+      "এখানে লেখকের নিজের ভাষায় দ্বিতীয় অনুচ্ছেদ যোগ করুন।",
+      "এখানে লেখকের নিজের ভাষায় তৃতীয় অনুচ্ছেদ যোগ করুন।",
+      "এখানে লেখকের নিজের ভাষায় চতুর্থ অনুচ্ছেদ যোগ করুন।"
+    ]
+  },
+  "categories": [
+    {
+      "id": "poem",
+      "slug": "poems",
+      "name": "কবিতা",
+      "singular": "কবিতা",
+      "description": "কবিতার সংগ্রহ",
+      "icon": "Feather",
+      "order": 1
+    },
+    {
+      "id": "short-story",
+      "slug": "short-stories",
+      "name": "ছোটগল্প",
+      "singular": "ছোটগল্প",
+      "description": "ছোটগল্পের সংগ্রহ",
+      "icon": "BookOpenText",
+      "order": 2
+    },
+    {
+      "id": "book",
+      "slug": "books",
+      "name": "বই",
+      "singular": "বই",
+      "description": "প্রকাশিত ও ডিজিটাল বই",
+      "icon": "Book",
+      "order": 3
+    },
+    {
+      "id": "islamic-music",
+      "slug": "islamic-music",
+      "name": "ইসলামী সংগীত",
+      "singular": "ইসলামী সংগীত",
+      "description": "ইসলামী সংগীতের সংগ্রহ",
+      "icon": "Music",
+      "order": 4
+    },
+    {
+      "id": "novel",
+      "slug": "novels",
+      "name": "উপন্যাস",
+      "singular": "উপন্যাস",
+      "description": "উপন্যাসের সংগ্রহ",
+      "icon": "LibraryBig",
+      "order": 5
+    },
+    {
+      "id": "music-video",
+      "slug": "music-videos",
+      "name": "সংগীত ভিডিও",
+      "singular": "সংগীত ভিডিও",
+      "description": "ইউটিউবে প্রকাশিত সংগীত ভিডিও",
+      "icon": "Clapperboard",
+      "order": 6
+    }
+  ],
+  "creations": [
+    {
+      "id": "poem-01",
+      "slug": "poems-sample-01",
+      "categoryId": "poem",
+      "title": "নমুনা কবিতা ০১",
+      "subtitle": "",
+      "excerpt": "কবিতার সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
+      "description": "কবিতার সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা কবিতা ০১",
+        "description": "কবিতার সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।"
+      }
+    },
+    {
+      "id": "poem-02",
+      "slug": "poems-sample-02",
+      "categoryId": "poem",
+      "title": "নমুনা কবিতা ০২",
+      "subtitle": "",
+      "excerpt": "কবিতার সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন。",
+      "description": "কবিতার সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন。",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা কবিতা ০২",
+        "description": "কবিতার সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন。"
+      }
+    },
+    {
+      "id": "poem-03",
+      "slug": "poems-sample-03",
+      "categoryId": "poem",
+      "title": "নমুনা কবিতা 03",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা কবিতা 03",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "poem-04",
+      "slug": "poems-sample-04",
+      "categoryId": "poem",
+      "title": "নমুনা কবিতা 04",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা কবিতা 04",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "poem-05",
+      "slug": "poems-sample-05",
+      "categoryId": "poem",
+      "title": "নমুনা কবিতা 05",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা কবিতা 05",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "poem-06",
+      "slug": "poems-sample-06",
+      "categoryId": "poem",
+      "title": "নমুনা কবিতা 06",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা কবিতা 06",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "poem-07",
+      "slug": "poems-sample-07",
+      "categoryId": "poem",
+      "title": "নমুনা কবিতা 07",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা কবিতা 07",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "poem-08",
+      "slug": "poems-sample-08",
+      "categoryId": "poem",
+      "title": "নমুনা কবিতা 08",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা কবিতা 08",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "poem-09",
+      "slug": "poems-sample-09",
+      "categoryId": "poem",
+      "title": "নমুনা কবিতা 09",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা কবিতা 09",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "poem-10",
+      "slug": "poems-sample-10",
+      "categoryId": "poem",
+      "title": "নমুনা কবিতা 10",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা কবিতা 10",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "poem-11",
+      "slug": "poems-sample-11",
+      "categoryId": "poem",
+      "title": "নমুনা কবিতা 11",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা কবিতা 11",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "poem-12",
+      "slug": "poems-sample-12",
+      "categoryId": "poem",
+      "title": "নমুনা কবিতা 12",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা কবিতা 12",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "short-story-01",
+      "slug": "short-stories-sample-01",
+      "categoryId": "short-story",
+      "title": "নমুনা ছোটগল্প ০১",
+      "subtitle": "",
+      "excerpt": "গল্পের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
+      "description": "গল্পের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ছোটগল্প ০১",
+        "description": "গল্পের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।"
+      }
+    },
+    {
+      "id": "short-story-02",
+      "slug": "short-stories-sample-02",
+      "categoryId": "short-story",
+      "title": "নমুনা ছোটগল্প ০২",
+      "subtitle": "",
+      "excerpt": "গল্পের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
+      "description": "গল্পের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ছোটগল্প ০২",
+        "description": "গল্পের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।"
+      }
+    },
+    {
+      "id": "short-story-03",
+      "slug": "short-stories-sample-03",
+      "categoryId": "short-story",
+      "title": "নমুনা ছোটগল্প 03",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ছোটগল্প 03",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "short-story-04",
+      "slug": "short-stories-sample-04",
+      "categoryId": "short-story",
+      "title": "নমুনা ছোটগল্প 04",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ছোটগল্প 04",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "short-story-05",
+      "slug": "short-stories-sample-05",
+      "categoryId": "short-story",
+      "title": "নমুনা ছোটগল্প 05",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ছোটগল্প 05",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "short-story-06",
+      "slug": "short-stories-sample-06",
+      "categoryId": "short-story",
+      "title": "নমুনা ছোটগল্প 06",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ছোটগল্প 06",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "short-story-07",
+      "slug": "short-stories-sample-07",
+      "categoryId": "short-story",
+      "title": "নমুনা ছোটগল্প 07",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ছোটগল্প 07",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "short-story-08",
+      "slug": "short-stories-sample-08",
+      "categoryId": "short-story",
+      "title": "নমুনা ছোটগল্প 08",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ছোটগল্প 08",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "short-story-09",
+      "slug": "short-stories-sample-09",
+      "categoryId": "short-story",
+      "title": "নমুনা ছোটগল্প 09",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ছোটগল্প 09",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "short-story-10",
+      "slug": "short-stories-sample-10",
+      "categoryId": "short-story",
+      "title": "নমুনা ছোটগল্প 10",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ছোটগল্প 10",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "short-story-11",
+      "slug": "short-stories-sample-11",
+      "categoryId": "short-story",
+      "title": "নমুনা ছোটগল্প 11",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ছোটগল্প 11",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "short-story-12",
+      "slug": "short-stories-sample-12",
+      "categoryId": "short-story",
+      "title": "নমুনা ছোটগল্প 12",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ছোটগল্প 12",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "book-01",
+      "slug": "books-sample-01",
+      "categoryId": "book",
+      "title": "নমুনা বই ০১",
+      "subtitle": "",
+      "excerpt": "বইয়ের বিবরণ, লেখক-তথ্য ও সংস্করণ এখানে যোগ করুন।",
+      "description": "বইয়ের বিবরণ, লেখক-তথ্য ও সংস্করণ এখানে যোগ করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা বই ০১",
+        "description": "বইয়ের বিবরণ, লেখক-তথ্য ও সংস্করণ এখানে যোগ করুন।"
+      }
+    },
+    {
+      "id": "book-02",
+      "slug": "books-sample-02",
+      "categoryId": "book",
+      "title": "নমুনা বই ০২",
+      "subtitle": "",
+      "excerpt": "বইয়ের বিবরণ, লেখক-তথ্য ও সংস্করণ এখানে যোগ করুন।",
+      "description": "বইয়ের বিবরণ, লেখক-তথ্য ও সংস্করণ এখানে যোগ করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা বই ০২",
+        "description": "বইয়ের বিবরণ, লেখক-তথ্য ও সংস্করণ এখানে যোগ করুন।"
+      }
+    },
+    {
+      "id": "book-03",
+      "slug": "books-sample-03",
+      "categoryId": "book",
+      "title": "নমুনা বই 03",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা বই 03",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "book-04",
+      "slug": "books-sample-04",
+      "categoryId": "book",
+      "title": "নমুনা বই 04",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা বই 04",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "book-05",
+      "slug": "books-sample-05",
+      "categoryId": "book",
+      "title": "নমুনা বই 05",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা বই 05",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "book-06",
+      "slug": "books-sample-06",
+      "categoryId": "book",
+      "title": "নমুনা বই 06",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা বই 06",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "book-07",
+      "slug": "books-sample-07",
+      "categoryId": "book",
+      "title": "নমুনা বই 07",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা বই 07",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "book-08",
+      "slug": "books-sample-08",
+      "categoryId": "book",
+      "title": "নমুনা বই 08",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা বই 08",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "book-09",
+      "slug": "books-sample-09",
+      "categoryId": "book",
+      "title": "নমুনা বই 09",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা বই 09",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "book-10",
+      "slug": "books-sample-10",
+      "categoryId": "book",
+      "title": "নমুনা বই 10",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা বই 10",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "book-11",
+      "slug": "books-sample-11",
+      "categoryId": "book",
+      "title": "নমুনা বই 11",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা বই 11",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "book-12",
+      "slug": "books-sample-12",
+      "categoryId": "book",
+      "title": "নমুনা বই 12",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা বই 12",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "islamic-music-01",
+      "slug": "islamic-music-sample-01",
+      "categoryId": "islamic-music",
+      "title": "নমুনা ইসলামী সংগীত ০১",
+      "subtitle": "",
+      "excerpt": "গানের পরিচিতি, শিল্পী ও প্রকাশনার তথ্য এখানে যোগ করুন।",
+      "description": "গানের পরিচিতি, শিল্পী ও প্রকাশনার তথ্য এখানে যোগ করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ইসলামী সংগীত ০১",
+        "description": "গানের পরিচিতি, শিল্পী ও প্রকাশনার তথ্য এখানে যোগ করুন।"
+      }
+    },
+    {
+      "id": "islamic-music-02",
+      "slug": "islamic-music-sample-02",
+      "categoryId": "islamic-music",
+      "title": "নমুনা ইসলামী সংগীত ০২",
+      "subtitle": "",
+      "excerpt": "গানের পরিচিতি, শিল্পী ও প্রকাশনার তথ্য এখানে যোগ করুন।",
+      "description": "গানের পরিচিতি, শিল্পী ও প্রকাশনার তথ্য এখানে যোগ করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ইসলামী সংগীত ০২",
+        "description": "গানের পরিচিতি, শিল্পী ও প্রকাশনার তথ্য এখানে যোগ করুন।"
+      }
+    },
+    {
+      "id": "islamic-music-03",
+      "slug": "islamic-music-sample-03",
+      "categoryId": "islamic-music",
+      "title": "নমুনা ইসলামী সংগীত 03",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ইসলামী সংগীত 03",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "islamic-music-04",
+      "slug": "islamic-music-sample-04",
+      "categoryId": "islamic-music",
+      "title": "নমুনা ইসলামী সংগীত 04",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ইসলামী সংগীত 04",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "islamic-music-05",
+      "slug": "islamic-music-sample-05",
+      "categoryId": "islamic-music",
+      "title": "নমুনা ইসলামী সংগীত 05",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ইসলামী সংগীত 05",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "islamic-music-06",
+      "slug": "islamic-music-sample-06",
+      "categoryId": "islamic-music",
+      "title": "নমুনা ইসলামী সংগীত 06",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ইসলামী সংগীত 06",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "islamic-music-07",
+      "slug": "islamic-music-sample-07",
+      "categoryId": "islamic-music",
+      "title": "নমুনা ইসলামী সংগীত 07",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ইসলামী সংগীত 07",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "islamic-music-08",
+      "slug": "islamic-music-sample-08",
+      "categoryId": "islamic-music",
+      "title": "নমুনা ইসলামী সংগীত 08",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ইসলামী সংগীত 08",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "islamic-music-09",
+      "slug": "islamic-music-sample-09",
+      "categoryId": "islamic-music",
+      "title": "নমুনা ইসলামী সংগীত 09",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ইসলামী সংগীত 09",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "islamic-music-10",
+      "slug": "islamic-music-sample-10",
+      "categoryId": "islamic-music",
+      "title": "নমুনা ইসলামী সংগীত 10",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ইসলামী সংগীত 10",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "islamic-music-11",
+      "slug": "islamic-music-sample-11",
+      "categoryId": "islamic-music",
+      "title": "নমুনা ইসলামী সংগীত 11",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ইসলামী সংগীত 11",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "islamic-music-12",
+      "slug": "islamic-music-sample-12",
+      "categoryId": "islamic-music",
+      "title": "নমুনা ইসলামী সংগীত 12",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা ইসলামী সংগীত 12",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "novel-01",
+      "slug": "novels-sample-01",
+      "categoryId": "novel",
+      "title": "নমুনা উপন্যাস ০১",
+      "subtitle": "",
+      "excerpt": "উপন্যাসের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
+      "description": "উপন্যাসের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা উপন্যাস ০১",
+        "description": "উপন্যাসের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।"
+      }
+    },
+    {
+      "id": "novel-02",
+      "slug": "novels-sample-02",
+      "categoryId": "novel",
+      "title": "নমুনা উপন্যাস ০২",
+      "subtitle": "",
+      "excerpt": "উপন্যাসের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
+      "description": "উপন্যাসের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা উপন্যাস ০২",
+        "description": "উপন্যাসের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।"
+      }
+    },
+    {
+      "id": "novel-03",
+      "slug": "novels-sample-03",
+      "categoryId": "novel",
+      "title": "নমুনা উপন্যাস 03",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা উপন্যাস 03",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "novel-04",
+      "slug": "novels-sample-04",
+      "categoryId": "novel",
+      "title": "নমুনা উপন্যাস 04",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা উপন্যাস 04",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "novel-05",
+      "slug": "novels-sample-05",
+      "categoryId": "novel",
+      "title": "নমুনা উপন্যাস 05",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা উপন্যাস 05",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "novel-06",
+      "slug": "novels-sample-06",
+      "categoryId": "novel",
+      "title": "নমুনা উপন্যাস 06",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা উপন্যাস 06",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "novel-07",
+      "slug": "novels-sample-07",
+      "categoryId": "novel",
+      "title": "নমুনা উপন্যাস 07",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা উপন্যাস 07",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "novel-08",
+      "slug": "novels-sample-08",
+      "categoryId": "novel",
+      "title": "নমুনা উপন্যাস 08",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা উপন্যাস 08",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "novel-09",
+      "slug": "novels-sample-09",
+      "categoryId": "novel",
+      "title": "নমুনা উপন্যাস 09",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা উপন্যাস 09",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "novel-10",
+      "slug": "novels-sample-10",
+      "categoryId": "novel",
+      "title": "নমুনা উপন্যাস 10",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা উপন্যাস 10",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "novel-11",
+      "slug": "novels-sample-11",
+      "categoryId": "novel",
+      "title": "নমুনা উপন্যাস 11",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা উপন্যাস 11",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "novel-12",
+      "slug": "novels-sample-12",
+      "categoryId": "novel",
+      "title": "নমুনা উপন্যাস 12",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা উপন্যাস 12",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "music-video-01",
+      "slug": "music-videos-sample-01",
+      "categoryId": "music-video",
+      "title": "নমুনা সংগীত ভিডিও ০১",
+      "subtitle": "",
+      "excerpt": "ভিডিওর বিবরণ ও ইউটিউব লিংক এখানে যোগ করুন।",
+      "description": "ভিডিওর বিবরণ ও ইউটিউব লিংক এখানে যোগ করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা সংগীত ভিডিও ০১",
+        "description": "ভিডিওর বিবরণ ও ইউটিউব লিংক এখানে যোগ করুন।"
+      }
+    },
+    {
+      "id": "music-video-02",
+      "slug": "music-videos-sample-02",
+      "categoryId": "music-video",
+      "title": "নমুনা সংগীত ভিডিও ০২",
+      "subtitle": "",
+      "excerpt": "ভিডিওর বিবরণ ও ইউটিউব লিংক এখানে যোগ করুন।",
+      "description": "ভিডিওর বিবরণ ও ইউটিউব লিংক এখানে যোগ করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা সংগীত ভিডিও ০২",
+        "description": "ভিডিওর বিবরণ ও ইউটিউব লিংক এখানে যোগ করুন।"
+      }
+    },
+    {
+      "id": "music-video-03",
+      "slug": "music-videos-sample-03",
+      "categoryId": "music-video",
+      "title": "নমুনা সংগীত ভিডিও 03",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা সংগীত ভিডিও 03",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "music-video-04",
+      "slug": "music-videos-sample-04",
+      "categoryId": "music-video",
+      "title": "নমুনা সংগীত ভিডিও 04",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা সংগীত ভিডিও 04",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "music-video-05",
+      "slug": "music-videos-sample-05",
+      "categoryId": "music-video",
+      "title": "নমুনা সংগীত ভিডিও 05",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা সংগীত ভিডিও 05",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "music-video-06",
+      "slug": "music-videos-sample-06",
+      "categoryId": "music-video",
+      "title": "নমুনা সংগীত ভিডিও 06",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": true,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা সংগীত ভিডিও 06",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "music-video-07",
+      "slug": "music-videos-sample-07",
+      "categoryId": "music-video",
+      "title": "নমুনা সংগীত ভিডিও 07",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা সংগীত ভিডিও 07",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "music-video-08",
+      "slug": "music-videos-sample-08",
+      "categoryId": "music-video",
+      "title": "নমুনা সংগীত ভিডিও 08",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা সংগীত ভিডিও 08",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "music-video-09",
+      "slug": "music-videos-sample-09",
+      "categoryId": "music-video",
+      "title": "নমুনা সংগীত ভিডিও 09",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা সংগীত ভিডিও 09",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "music-video-10",
+      "slug": "music-videos-sample-10",
+      "categoryId": "music-video",
+      "title": "নমুনা সংগীত ভিডিও 10",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা সংগীত ভিডিও 10",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "music-video-11",
+      "slug": "music-videos-sample-11",
+      "categoryId": "music-video",
+      "title": "নমুনা সংগীত ভিডিও 11",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা সংগীত ভিডিও 11",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    },
+    {
+      "id": "music-video-12",
+      "slug": "music-videos-sample-12",
+      "categoryId": "music-video",
+      "title": "নমুনা সংগীত ভিডিও 12",
+      "subtitle": "",
+      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [],
+      "creator": "লেখকের নাম",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "নমুনা সংগীত ভিডিও 12",
+        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+      }
+    }
+  ]
+}

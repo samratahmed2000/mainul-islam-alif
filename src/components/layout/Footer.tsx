@@ -1,10 +1,61 @@
-import React from 'react';
-const Footer = () => {
-    return (
-        <div>
-            
-        </div>
-    );
-};
+import Link from "next/link";
+import SocialLinks from "@/components/layout/SocialLinks";
+import Container from "@/components/ui/Container";
+import { getSiteSettings } from "@/lib/data";
 
-export default Footer;
+export default function Footer() {
+  const { name, designation, description, socialLinks, contact } =
+    getSiteSettings();
+  const contactMethods = [
+    contact.email
+      ? { label: "ইমেইল", href: `mailto:${contact.email}`, value: contact.email }
+      : undefined,
+    contact.phone
+      ? { label: "ফোন", href: `tel:${contact.phone}`, value: contact.phone }
+      : undefined,
+  ].filter((item) => item !== undefined);
+
+  return (
+    <footer className="site-footer">
+      <Container>
+        <div className="site-footer-inner">
+          <div>
+            <p className="footer-brand">{name}</p>
+            <p className="footer-designation">{designation}</p>
+            <p className="footer-description">{description}</p>
+            <div className="mt-5">
+              <SocialLinks links={socialLinks} />
+            </div>
+          </div>
+          <div>
+            <h2 className="footer-contact-title">যোগাযোগ</h2>
+            <div className="footer-contact-list">
+              {contactMethods.map((item) => (
+                <a
+                  key={item.label}
+                  className="footer-contact-link"
+                  href={item.href}
+                >
+                  <span className="footer-contact-label">{item.label}: </span>
+                  {item.value}
+                </a>
+              ))}
+              {contact.address && (
+                <p className="footer-description">{contact.address}</p>
+              )}
+              <Link className="footer-contact-link mt-2" href="/contact">
+                যোগাযোগের বিস্তারিত দেখুন
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="footer-bottom">
+          <span>© {name}</span>
+          <Link className="footer-contact-link" href="/privacy">
+            গোপনীয়তা নীতি
+          </Link>
+        </div>
+      </Container>
+    </footer>
+  );
+}

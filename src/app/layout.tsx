@@ -1,22 +1,37 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import Footer from "@/components/layout/Footer";
+import Navbar from "@/components/layout/Navbar";
+import { getSiteSettings } from "@/lib/data";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
+const site = getSiteSettings();
 
 export const metadata: Metadata = {
-  title: "Mainul Islam Alif",
-  description: "Personal and Professional portfolio",
+  title: {
+    default: site.name,
+    template: `%s | ${site.name}`,
+  },
+  description: site.description,
+  openGraph: {
+    title: site.name,
+    description: site.description,
+    locale: "bn_BD",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en">
-      <body className={`min-h-full flex flex-col ${inter.className}`}>
-        {children}
+    <html lang="bn">
+      <body>
+        <a className="skip-link" href="#main-content">
+          মূল কনটেন্টে যান
+        </a>
+        <Navbar />
+        <main id="main-content" className="site-main">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );

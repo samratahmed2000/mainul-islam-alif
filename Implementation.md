@@ -49,6 +49,22 @@ At inspection time, `src/app/error.tsx` already had an uncommitted change adding
 - Query behavior check using an isolated in-memory published fixture: passed (category order, published-only filtering, category/slug matching, protected URL omission, and frozen data).
 - `npm.cmd run build`: compilation and TypeScript passed, but page-data collection failed because existing `src/app/robots.ts` has no default export; the empty `src/app/sitemap.ts` also produced a warning. These SEO route placeholders are outside Phase 2 and remain for the later SEO phase.
 
+## Phase 3 — Shared layout and design system
+
+**Status: complete.** Added the shared Bengali-language shell and foundational design tokens without implementing route-specific page content.
+
+- Updated the root layout with Bengali metadata, Open Graph defaults, a skip link, shared navbar/footer, and a main-content landmark.
+- Added forest-green/off-white/mint theme tokens, responsive spacing, Bengali-friendly system font fallbacks, visible focus states, reduced-motion support, and shared layout styles.
+- Implemented a responsive navbar with route links, an accessible mobile menu (Escape closes and restores focus), and a contact-page fallback when no scheduling URL is configured.
+- Implemented data-driven social/contact links that omit invalid or empty social URLs; WhatsApp phone values are normalized to a `wa.me` link.
+- Added typed reusable container, button, section-heading, and empty-state primitives.
+- Installed the required `react-icons` dependency using npm.
+- `npx.cmd tsc --noEmit`: passed.
+- `npm.cmd run lint`: passed.
+- Browser validation at mobile and desktop widths: shared shell rendered; mobile menu opened and closed on Escape; Bengali document language, typography fallback, and forest-green background were confirmed.
+- `npm.cmd run build`: application compilation and TypeScript passed, but page-data collection remains blocked by the existing empty SEO route modules (`robots.ts` and `sitemap.ts`). These are reserved for the SEO phase.
+- `npm install` reported 5 high-severity dependency advisories; no automatic dependency upgrades or audit fixes were applied.
+
 ## Phases
 
 ### 1. Confirm the baseline and content readiness
@@ -69,10 +85,11 @@ At inspection time, `src/app/error.tsx` already had an uncommitted change adding
 
 ### 3. Establish the shared layout and visual system
 
+- Completed: see the Phase 3 record above.
 - Implement the Bengali-language root layout, metadata defaults, Bengali-friendly typography, and forest-green editorial theme.
 - Build the shared navbar, responsive mobile menu, footer, social links, buttons, and reusable layout primitives.
 - Use real route links, visible focus states, keyboard access, reduced-motion support, and graceful image fallbacks.
-- Add `react-icons` only if needed to meet the specified icon requirements, while preserving the existing package setup.
+- Add the required `react-icons` dependency, preserving the existing package manager and app structure.
 
 **Deliverable:** a consistent, accessible shell for all routes.
 

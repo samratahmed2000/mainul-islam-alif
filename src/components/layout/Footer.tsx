@@ -2,17 +2,28 @@ import Link from "next/link";
 import ContactForm from "@/components/contact/ContactForm";
 import SocialLinks from "@/components/layout/SocialLinks";
 import Container from "@/components/ui/Container";
+import { getSafeEmailHref, getSafePhoneHref } from "@/lib/contact";
 import { getSiteSettings } from "@/lib/data";
 
 export default function Footer() {
   const { name, designation, description, socialLinks, contact } =
     getSiteSettings();
+  const emailHref = getSafeEmailHref(contact.email);
+  const phoneHref = getSafePhoneHref(contact.phone);
   const contactMethods = [
-    contact.email
-      ? { label: "ইমেইল", href: `mailto:${contact.email}`, value: contact.email }
+    emailHref
+      ? {
+          label: "ইমেইল",
+          href: emailHref,
+          value: contact.email.trim(),
+        }
       : undefined,
-    contact.phone
-      ? { label: "ফোন", href: `tel:${contact.phone}`, value: contact.phone }
+    phoneHref
+      ? {
+          label: "ফোন",
+          href: phoneHref,
+          value: contact.phone.trim(),
+        }
       : undefined,
   ].filter((item) => item !== undefined);
 
@@ -45,8 +56,8 @@ export default function Footer() {
                   {item.value}
                 </a>
               ))}
-              {contact.address && (
-                <p className="footer-description">{contact.address}</p>
+              {contact.address.trim() && (
+                <p className="footer-description">{contact.address.trim()}</p>
               )}
               <Link className="footer-contact-link mt-2" href="/contact">
                 যোগাযোগের বিস্তারিত দেখুন

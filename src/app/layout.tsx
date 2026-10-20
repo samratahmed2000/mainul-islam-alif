@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
 import { getSiteSettings } from "@/lib/data";
+import { getSiteUrl } from "@/lib/seo";
 import "./globals.css";
 
 const site = getSiteSettings();
+const siteUrl = getSiteUrl();
 
 export const metadata: Metadata = {
   title: {
@@ -17,7 +19,14 @@ export const metadata: Metadata = {
     description: site.description,
     locale: "bn_BD",
     type: "website",
+    ...(siteUrl ? { url: siteUrl.toString() } : {}),
   },
+  ...(siteUrl
+    ? {
+        metadataBase: siteUrl,
+        alternates: { canonical: "/" },
+      }
+    : {}),
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

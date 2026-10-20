@@ -11,6 +11,7 @@ import {
   getCreationBySlug,
   getCreationsByCategory,
 } from "@/lib/data";
+import { getCanonicalUrl } from "@/lib/seo";
 
 interface CreationPageProps {
   readonly params: Promise<{ category: string; slug: string }>;
@@ -31,6 +32,11 @@ export async function generateMetadata({
   return {
     title: creation.seo.title || creation.title,
     description: creation.seo.description || creation.excerpt,
+    alternates: {
+      canonical: getCanonicalUrl(
+        `/creations/${categorySlug}/${creation.slug}`,
+      ),
+    },
     openGraph: {
       title: creation.seo.title || creation.title,
       description: creation.seo.description || creation.excerpt,

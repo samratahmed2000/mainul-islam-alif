@@ -54,7 +54,8 @@ At inspection time, `src/app/error.tsx` already had an uncommitted change adding
 **Status: complete.** Added the shared Bengali-language shell and foundational design tokens without implementing route-specific page content.
 
 - Updated the root layout with Bengali metadata, Open Graph defaults, a skip link, shared navbar/footer, and a main-content landmark.
-- Added forest-green/off-white/mint theme tokens, responsive spacing, Bengali-friendly system font fallbacks, visible focus states, reduced-motion support, and shared layout styles.
+- Added forest-green/off-white/accent theme tokens, responsive spacing, Bengali-friendly system font fallbacks, visible focus states, reduced-motion support, and shared layout styles. The palette and interaction states now follow the user-provided Samrat Ahmed reference: near-black green backgrounds, subdued green surfaces and borders, lime accents, and responsive accent hover states.
+- Deepened the dark palette on request with near-black backgrounds and card surfaces while preserving the established lime accents.
 - Implemented a responsive navbar with route links, an accessible mobile menu (Escape closes and restores focus), and a contact-page fallback when no scheduling URL is configured.
 - Implemented data-driven social/contact links that omit invalid or empty social URLs; WhatsApp phone values are normalized to a `wa.me` link.
 - Added typed reusable container, button, section-heading, and empty-state primitives.
@@ -171,27 +172,44 @@ At inspection time, `src/app/error.tsx` already had an uncommitted change adding
 
 ### 7. Add contact, privacy, and SEO behavior
 
-- Build `/contact` and `/privacy`, with clear Bengali form messages and explicit demo/not-connected language.
-- Add route metadata, Open Graph defaults, `sitemap.ts`, and `robots.ts`; exclude drafts and archived creations from public metadata and the sitemap.
-- Add not-found, loading, error, and empty states where appropriate.
+**Status: complete.** Implemented contact and privacy routes, explicit demo-form behavior, route SEO metadata, and crawl/indexing endpoints.
 
-**Deliverable:** complete route coverage and safe public indexing behavior.
+- `/contact` displays only configured contact methods and valid social URLs, with a Bengali demo form. Email and phone links are validated before rendering.
+- `/privacy` explains that the current form only validates in the browser and does not send or persist form data; it avoids unsupported legal or tracking claims.
+- Made form validation error IDs unique across the footer and contact-page form instances.
+- Added route-specific titles, descriptions, and canonical URLs when `SITE_URL` is configured. Open Graph defaults are shared through the root layout.
+- Added `robots.ts` and `sitemap.ts`. Set `SITE_URL` to the verified site origin before building/deploying to emit canonical URLs and sitemap entries. Without it, canonical URLs are omitted and the sitemap contains no entries rather than using an invented domain.
+- The sitemap includes public static pages, known category pages, and published creation details only; draft and archived creations are excluded.
+- Added Bengali global loading and retryable error states. Existing not-found and catalog empty states remain in place.
+- `npm.cmd run lint`: passed.
+- `npx.cmd tsc --noEmit`: passed.
+- `npm.cmd run build`: passed; all route modules including `/robots.txt` and `/sitemap.xml` generated successfully.
+- Browser checks confirmed the contact/privacy content, both contact forms validate independently with unique linked error IDs, a valid submission explicitly says it was not sent, and no canonical is emitted without `SITE_URL`. With a reserved test origin, the build emitted canonical URLs, the robots sitemap reference, and only static/category sitemap entries (the seed creations are all drafts).
+
+**Deliverable:** complete contact and privacy routes with safe, domain-aware indexing behavior and useful route states.
 
 ### 8. Verify and document
 
-- Run the repository lint command, a TypeScript check, and a production build; fix issues introduced by implementation.
-- Test category filtering, dynamic routes, unpublished-content exclusion, missing images/links/media, mobile navigation, and form validation.
-- Update the README with setup, scripts, content editing, image replacement, route map, and limitations.
+**Status: complete.** Finalized the maintenance documentation and verified the completed routes, responsive layout, contact interactions, and production output.
+
+- Updated `README.md` with setup, scripts, `SITE_URL` configuration, content editing, image replacement, route map, and current integration/content limitations.
+- `npm.cmd run lint`: passed.
+- `npx.cmd tsc --noEmit`: passed.
+- `npm.cmd run build`: passed; all application and metadata routes generated.
+- Production browser checks confirmed the homepage and contact route render, all six category shelves respect the all-draft seed state, a category route shows zero published works, and unknown category and creation URLs render the branded not-found page.
+- At a 320 CSS-pixel viewport, the page had no horizontal overflow; the mobile navigation opened. The missing hero/CTA image fallbacks rendered, and no rendered anchor lacked an `href`.
+- Both contact forms produced their own validation errors; all eight error IDs were unique and every `aria-describedby` reference resolved. Valid form submission was previously confirmed to report that no message was sent.
+- Sitemap and metadata behavior with and without `SITE_URL` was verified in Phase 7. The supplied seed has no published creations, so published-detail content and populated media cannot be exercised with current project data; sitemap currently contains only static and category routes when a site origin is configured.
 
 **Deliverable:** a checked implementation with clear maintenance instructions.
 
 ## Acceptance criteria
 
-- All specified routes and navigation links work.
-- Public pages, related items, metadata, and sitemap exclude drafts and archived records.
-- No placeholder biography is presented as fact; no broken media, empty social links, fake form success, or fake checkout/download behavior.
-- Layout is readable and usable from 320px mobile screens through desktop, with accessible controls and reduced-motion support.
-- Lint, TypeScript checking, and production build are run and their actual results recorded.
+- All specified routes and navigation links are implemented; checked static routes, category routes, and not-found behavior render correctly.
+- Public creation queries and sitemap use published-only data access; the current seed contains no published creations.
+- Placeholder biography is suppressed; optional links and media have fallbacks, the form never claims delivery, and purchase/download behavior is not represented as functional.
+- Narrow-screen layout has no horizontal overflow at 320 CSS pixels, and the mobile menu and accessible form validation were checked.
+- Lint, TypeScript checking, and production build passed; actual verification results are recorded above.
 
 ## Content dependency
 

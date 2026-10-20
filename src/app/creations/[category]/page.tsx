@@ -5,6 +5,7 @@ import CreationGrid from "@/components/creations/CreationGrid";
 import Container from "@/components/ui/Container";
 import EmptyState from "@/components/ui/EmptyState";
 import { getCategories, getCategoryBySlug, getCreationsByCategory } from "@/lib/data";
+import { getCanonicalUrl } from "@/lib/seo";
 
 interface CategoryPageProps {
   readonly params: Promise<{ category: string }>;
@@ -29,6 +30,9 @@ export async function generateMetadata({
   return {
     title: category.name,
     description: category.description,
+    alternates: {
+      canonical: getCanonicalUrl(`/creations/${category.slug}`),
+    },
   };
 }
 

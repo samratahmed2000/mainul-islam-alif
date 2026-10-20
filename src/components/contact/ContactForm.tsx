@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useId, useState, type FormEvent } from "react";
 import { validateContactForm } from "@/lib/validation";
 import type { ContactFormData } from "@/types/contact";
 
@@ -12,6 +12,7 @@ const INITIAL_FORM: ContactFormData = {
 };
 
 export default function ContactForm() {
+  const formId = useId();
   const [values, setValues] = useState<ContactFormData>(INITIAL_FORM);
   const [errors, setErrors] = useState<
     Partial<Record<keyof ContactFormData, string>>
@@ -54,11 +55,11 @@ export default function ContactForm() {
             required
             value={values.name}
             aria-invalid={Boolean(errors.name)}
-            aria-describedby={errors.name ? "footer-name-error" : undefined}
+            aria-describedby={errors.name ? `${formId}-name-error` : undefined}
             onChange={(event) => handleChange("name", event.target.value)}
           />
           {errors.name && (
-            <span className="form-error" id="footer-name-error">
+            <span className="form-error" id={`${formId}-name-error`}>
               {errors.name}
             </span>
           )}
@@ -72,11 +73,11 @@ export default function ContactForm() {
             required
             value={values.email}
             aria-invalid={Boolean(errors.email)}
-            aria-describedby={errors.email ? "footer-email-error" : undefined}
+            aria-describedby={errors.email ? `${formId}-email-error` : undefined}
             onChange={(event) => handleChange("email", event.target.value)}
           />
           {errors.email && (
-            <span className="form-error" id="footer-email-error">
+            <span className="form-error" id={`${formId}-email-error`}>
               {errors.email}
             </span>
           )}
@@ -91,11 +92,11 @@ export default function ContactForm() {
             required
             value={values.phone}
             aria-invalid={Boolean(errors.phone)}
-            aria-describedby={errors.phone ? "footer-phone-error" : undefined}
+            aria-describedby={errors.phone ? `${formId}-phone-error` : undefined}
             onChange={(event) => handleChange("phone", event.target.value)}
           />
           {errors.phone && (
-            <span className="form-error" id="footer-phone-error">
+            <span className="form-error" id={`${formId}-phone-error`}>
               {errors.phone}
             </span>
           )}
@@ -109,12 +110,12 @@ export default function ContactForm() {
             value={values.message}
             aria-invalid={Boolean(errors.message)}
             aria-describedby={
-              errors.message ? "footer-message-error" : undefined
+              errors.message ? `${formId}-message-error` : undefined
             }
             onChange={(event) => handleChange("message", event.target.value)}
           />
           {errors.message && (
-            <span className="form-error" id="footer-message-error">
+            <span className="form-error" id={`${formId}-message-error`}>
               {errors.message}
             </span>
           )}

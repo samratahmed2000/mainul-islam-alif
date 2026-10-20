@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import CreativeLife from "@/components/profile/CreativeLife";
 import EducationCard from "@/components/profile/EducationCard";
 import Interests from "@/components/profile/Interests";
@@ -7,12 +8,16 @@ import ProfileHero from "@/components/profile/ProfileHero";
 import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { getProfile, getSiteSettings } from "@/lib/data";
+import { getCanonicalUrl } from "@/lib/seo";
 
 const site = getSiteSettings();
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "পরিচিতি",
   description: `${site.name} — ${site.designation}। ${site.tagline}`,
+  alternates: {
+    canonical: getCanonicalUrl("/about"),
+  },
 };
 
 export default function AboutPage() {

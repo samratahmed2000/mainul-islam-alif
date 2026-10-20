@@ -1,11 +1,16 @@
 
+import type { Metadata } from "next";
 import CategoryGrid from "@/components/creations/CategoryGrid";
 import Container from "@/components/ui/Container";
 import { getCategories, getCreationsByCategory } from "@/lib/data";
+import { getCanonicalUrl } from "@/lib/seo";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "সৃষ্টিকর্ম",
   description: "কবিতা, গল্প, বই, ইসলামী সংগীত ও অন্যান্য সৃষ্টিকর্মের সংগ্রহ।",
+  alternates: {
+    canonical: getCanonicalUrl("/creations"),
+  },
 };
 
 export default function CreationsPage() {

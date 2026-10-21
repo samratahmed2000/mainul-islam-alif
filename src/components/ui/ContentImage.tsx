@@ -23,7 +23,7 @@ export default function ContentImage({
   const [hasFailed, setHasFailed] = useState(false);
   const hasLocalSource = src.startsWith("/") && !src.startsWith("//");
 
-  if (!hasLocalSource || hasFailed) {
+  if (!hasLocalSource) {
     return (
       <div className={`content-image-fallback ${className}`.trim()} aria-hidden="true">
         {fallback}
@@ -32,14 +32,23 @@ export default function ContentImage({
   }
 
   return (
-    <Image
-      className={className}
-      src={src}
-      alt={alt}
-      fill
-      sizes={sizes}
-      priority={priority}
-      onError={() => setHasFailed(true)}
-    />
+    <>
+      {/* Keep the artwork fallback underneath so missing local images never
+          leave an empty frame before hydration. */}
+      <div className="content-image-fallback" aria-hidden="true">
+        {fallback}
+      </div>
+      {!hasFailed && (
+        <Image
+          className={className}
+          src={src}
+          alt={alt}
+          fill
+          sizes={sizes}
+          priority={priority}
+          onError={() => setHasFailed(true)}
+        />
+      )}
+    </>
   );
 }

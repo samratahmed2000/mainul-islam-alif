@@ -203,6 +203,26 @@ At inspection time, `src/app/error.tsx` already had an uncommitted change adding
 
 **Deliverable:** a checked implementation with clear maintenance instructions.
 
+### 9. Prepare verified content and asset integration
+
+**Status: draft demo records prepared; waiting for owner-supplied verified material.** No biography, real creation, or media has been invented or published.
+
+- Documented the exact profile, career, education, creation, contact, and media details needed to replace editable seed placeholders in `README.md`.
+- Added six clearly labeled dummy creation records (one per category) with original fictional Bengali sample copy: a short poem, a short story, a book synopsis, an Islamic-music concept with sample couplet, a novel synopsis, and a music-video storyboard. Each title and description identifies it as a demo, not a real work; all six remain `draft`, are not for sale, and have no media links.
+- The original 72 sample creation records remain unchanged and unpublished. The total is now 78 creation records, all drafts.
+- Verified that IDs and slugs are unique, all category references resolve, all six demo records cover unique categories, and no record is published.
+- Production route checks confirmed the demo titles do not appear on the homepage or sitemap, category pages remain empty, and direct navigation to a draft demo detail renders the not-found page.
+- On request, replaced the short demo descriptions with original Bengali sample copy for each topic: an original short poem, short story, fictional book synopsis, fictional Islamic-music concept with sample couplet, fictional novel synopsis, and fictional music-video storyboard. Each remains clearly labeled as demo/sample content and unpublished.
+- Confirmed the profile still contains editable guidance text, all five career entries lack organization and period values, and all five education entries lack institution values.
+- Confirmed the `public/` folder contains no image assets. Documented expected logo, hero, profile, CTA, and creation-cover paths; replacement media should only be added when its use is authorized.
+- The existing data layer already validates required structure and enforces published-only creation queries. Once verified materials are supplied, update only the corresponding records, preserve stable IDs/slugs, and publish only works with confirmed content and permission.
+- `npm.cmd run lint`, `npx.cmd tsc --noEmit`, and `npm.cmd run build`: passed after adding and filling the demo records.
+- Rechecked with the production server after adding the sample copy: the home page does not show the demo poem, category remains in its published-empty state, draft detail is not found, and sitemap excludes the demo slug.
+
+**Needed to proceed with content integration:** owner-approved profile facts; verified career and education details; actual creation titles, copy, publication dates and category assignments; approved image/audio/video assets and rights; and confirmation of which contact/social values may be public.
+
+**Deliverable:** a documented content handoff checklist. Content integration itself remains pending verified source material.
+
 ## Acceptance criteria
 
 - All specified routes and navigation links are implemented; checked static routes, category routes, and not-found behavior render correctly.
@@ -214,3 +234,18 @@ At inspection time, `src/app/error.tsx` already had an uncommitted change adding
 ## Content dependency
 
 The current seed creations are all drafts. The catalog should correctly show empty states until verified works are added and explicitly published.
+
+### 10. English language and reference-driven visual redesign
+
+**Status: complete.** Converted the public experience to English and rebuilt the visual theme around the supplied reference image.
+
+- Replaced the Bengali font stack with Poppins (Google Fonts via `next/font/google`, `--font-poppins` / `--font-body`) and changed the document language to `en` with `en_US` Open Graph metadata.
+- Rewrote every interface string (navigation, hero, profile, catalogue, forms, validation, privacy, route states, metadata, aria labels) in English and converted dates, counts, and prices to `en-US` formatting.
+- Translated all `db.json` site, profile, category, sample, and demo text to English, including the six original fictional demo pieces. Sample creation titles are now "Sample Poem 01" style; demo titles are prefixed "Demo —".
+- Replaced Bengali placeholder detection with `src/lib/placeholder.ts`, which recognizes "Add …" and "Edit …" template copy, so unverified text stays hidden from biography, interests, and media sections.
+- Rebuilt `src/app/globals.css` around the reference design: deep forest-green hero/footer bands, cream page surface, white rounded cards, amber pill buttons, wave-shaped hero edge, sparkle accents, circle icon badges, and "Read more" affordances in creation cards.
+- Added data-driven hero statistics (total, writing, and music collections), decorative sparkles, and a layered `ContentImage` fallback so missing local images never leave a blank frame.
+- Preserved all existing routes, draft-only public queries, the demo-only contact form wording, responsive layouts, visible focus states, and reduced-motion support.
+- `npm run lint`, `npx tsc --noEmit`, and `npm run build`: passed after the change.
+- Production screenshots at desktop and small widths confirmed the new palette, typography, wave divider, hero fallback artwork, CTA content, category grid, and footer; all public pages render in English.
+

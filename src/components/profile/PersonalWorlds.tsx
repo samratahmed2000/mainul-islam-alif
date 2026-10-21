@@ -1,27 +1,24 @@
 import EmptyState from "@/components/ui/EmptyState";
 import SectionHeading from "@/components/ui/SectionHeading";
+import { isPlaceholderText } from "@/lib/placeholder";
 
 interface PersonalWorldsProps {
   readonly paragraphs: readonly string[];
-}
-
-function isPlaceholder(value: string): boolean {
-  return /এখানে লেখকের নিজের ভাষায় .*যোগ করুন/u.test(value);
 }
 
 export default function PersonalWorlds({
   paragraphs,
 }: PersonalWorldsProps) {
   const verifiedParagraphs = paragraphs.filter(
-    (paragraph) => paragraph.trim() !== "" && !isPlaceholder(paragraph),
+    (paragraph) => !isPlaceholderText(paragraph),
   );
 
   return (
     <section className="profile-section personal-words-section">
       <SectionHeading
         id="personal-words-heading"
-        eyebrow="নিজের কথা"
-        title="আমার কিছু কথা"
+        eyebrow="In my own words"
+        title="A few words from me"
       />
       {verifiedParagraphs.length > 0 ? (
         <div
@@ -34,8 +31,8 @@ export default function PersonalWorlds({
         </div>
       ) : (
         <EmptyState
-          title="নিজের বক্তব্য সংযোজনাধীন"
-          description="লেখকের নিজের ভাষায় বক্তব্য পাওয়া গেলে এখানে প্রকাশ করা হবে।"
+          title="A personal note is coming soon"
+          description="The author's own words will be published here once available."
         />
       )}
     </section>

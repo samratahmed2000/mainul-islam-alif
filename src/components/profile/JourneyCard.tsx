@@ -6,6 +6,7 @@ import {
   FiStar,
 } from "react-icons/fi";
 import EmptyState from "@/components/ui/EmptyState";
+import { isPlaceholderText } from "@/lib/placeholder";
 import type { ProfessionalJourney } from "@/types/profile";
 
 interface JourneyCardProps {
@@ -20,16 +21,11 @@ const JOURNEY_ICONS = [
   FiStar,
 ];
 
-function isPlaceholder(value: string): boolean {
-  return /যাচাইকৃত তথ্য যোগ করুন|এখানে .*যোগ করুন/u.test(value);
-}
-
 export default function JourneyCard({ entries }: JourneyCardProps) {
   const verifiedEntries = entries.filter(
     (entry) =>
-      !isPlaceholder(entry.description) &&
-      !isPlaceholder(entry.title) &&
-      entry.title.trim() !== "" &&
+      !isPlaceholderText(entry.title) &&
+      !isPlaceholderText(entry.description) &&
       (entry.organization.trim() !== "" ||
         entry.period.trim() !== "" ||
         entry.description.trim() !== ""),
@@ -38,8 +34,8 @@ export default function JourneyCard({ entries }: JourneyCardProps) {
   if (verifiedEntries.length === 0) {
     return (
       <EmptyState
-        title="পেশাগত তথ্য সংযোজনাধীন"
-        description="যাচাইকৃত কর্মজীবনের বিবরণ পাওয়া গেলে এখানে যুক্ত করা হবে।"
+        title="Professional details coming soon"
+        description="Verified career information will be added here once available."
       />
     );
   }

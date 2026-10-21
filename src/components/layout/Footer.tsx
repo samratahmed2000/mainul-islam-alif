@@ -13,14 +13,14 @@ export default function Footer() {
   const contactMethods = [
     emailHref
       ? {
-          label: "ইমেইল",
+          label: "Email",
           href: emailHref,
           value: contact.email.trim(),
         }
       : undefined,
     phoneHref
       ? {
-          label: "ফোন",
+          label: "Phone",
           href: phoneHref,
           value: contact.phone.trim(),
         }
@@ -40,9 +40,10 @@ export default function Footer() {
             </div>
           </div>
           <div className="footer-form-column">
-            <h2 className="footer-contact-title">যোগাযোগ করুন</h2>
+            <h2 className="footer-contact-title">Get in touch</h2>
             <p className="footer-form-description">
-              নিচের ফর্মটি প্রদর্শনীর জন্য; বার্তা পাঠাতে সরাসরি যোগাযোগের তথ্য ব্যবহার করুন।
+              This form is a demo and does not send messages. Use the direct
+              contact details below.
             </p>
             <ContactForm />
             <div className="footer-contact-list footer-direct-contact">
@@ -60,7 +61,7 @@ export default function Footer() {
                 <p className="footer-description">{contact.address.trim()}</p>
               )}
               <Link className="footer-contact-link mt-2" href="/contact">
-                যোগাযোগের বিস্তারিত দেখুন
+                View full contact details
               </Link>
             </div>
           </div>
@@ -68,7 +69,7 @@ export default function Footer() {
         <div className="footer-bottom">
           <span>© {name}</span>
           <Link className="footer-contact-link" href="/privacy">
-            গোপনীয়তা নীতি
+            Privacy policy
           </Link>
         </div>
       </Container>

@@ -11,7 +11,7 @@ interface BreadCumbsProps {
 
 export default function BreadCumbs({ items }: BreadCumbsProps) {
   return (
-    <nav className="breadcrumbs" aria-label="আপনি এখানে">
+    <nav className="breadcrumbs" aria-label="Breadcrumb">
       <ol>
         {items.map((item, index) => {
           const isCurrent = index === items.length - 1;

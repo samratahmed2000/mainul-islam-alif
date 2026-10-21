@@ -1,13 +1,14 @@
 import ContentImage from "@/components/ui/ContentImage";
 import Container from "@/components/ui/Container";
 import { getProfile, getSiteSettings } from "@/lib/data";
+import { isPlaceholderText } from "@/lib/placeholder";
 
 export default function ProfileHero() {
   const site = getSiteSettings();
   const profile = getProfile();
-  const isPlaceholder =
-    profile.intro.trim() === "" || profile.intro.startsWith("এখানে");
-  const intro = isPlaceholder ? site.description : profile.intro;
+  const intro = isPlaceholderText(profile.intro)
+    ? site.description
+    : profile.intro;
 
   return (
     <section className="profile-hero">
@@ -15,12 +16,14 @@ export default function ProfileHero() {
         <div className="profile-hero-image-frame">
           <ContentImage
             src={site.profileImage}
-            alt={`${site.name} — পরিচিতি`}
+            alt={`${site.name} — portrait`}
             sizes="(max-width: 48rem) 80vw, 25rem"
             className="profile-hero-image"
             fallback={
               <div className="profile-image-fallback" aria-hidden="true">
-                <span className="profile-image-initial">ম</span>
+                <span className="profile-image-initial">
+                  {site.name.charAt(0)}
+                </span>
                 <span>{site.designation}</span>
               </div>
             }

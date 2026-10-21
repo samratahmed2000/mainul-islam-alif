@@ -130,7 +130,7 @@ reusable UI components in src/components/
 
 1. Add a creation record with a unique `id` and `slug`.
 2. Assign a valid `categoryId` from `categories`.
-3. Add Bengali title, excerpt, description, cover image, tags and optional media.
+3. Add English title, excerpt, description, cover image, tags and optional media.
 4. Keep `status: "draft"` while reviewing.
 5. Set `status: "published"` only when the content and rights are confirmed.
 6. For sale, configure product metadata. A real payment flow must verify orders server-side before allowing protected downloads.

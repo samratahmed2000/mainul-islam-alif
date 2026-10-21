@@ -24,7 +24,7 @@ export default function CreationShelf({
           title={category.name}
         />
         <Link className="shelf-view-all" href={`/creations/${category.slug}`}>
-          সব দেখুন
+          View all
         </Link>
       </div>
       {featuredCreations.length > 0 ? (
@@ -34,8 +34,8 @@ export default function CreationShelf({
         />
       ) : (
         <EmptyState
-          title={`${category.name} বিভাগ`}
-          description="এই বিভাগে এখনো কোনো প্রকাশিত সৃষ্টিকর্ম নেই।"
+          title={category.name}
+          description="No published works in this collection yet."
         />
       )}
     </section>

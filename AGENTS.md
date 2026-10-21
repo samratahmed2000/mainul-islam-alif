@@ -29,138 +29,68 @@ Before the final response, run one reporting pass. If candidates remain, from th
 
 <!-- END:nextjs-agent-feedback -->
 
-# AGENTS.md — Project-wide Instructions
+# AGENTS.md — Project instructions
 
-## Project purpose
+## Read first
 
-Build and maintain a premium Bengali-language personal portfolio and digital-creations catalog for a person who is a banker, writer, and Islamic music artist. The application must present the person's verified profile and creative works, and keep the architecture ready for future digital-product sales, content management, and backend integration.
+- `README.md` — setup, scripts, content editing, assets, routes, limitations.
+- `ARCHITECTURE.md` — intended layers, data flow, product/content lifecycle.
+- `Implementation.md` — completed phases and known Next.js quirks.
+- Use the version-matched docs in `node_modules/next/dist/docs/`. This app uses Next.js 16 Cache Components, Partial Prefetching, and `instant`, so older Next.js patterns may not apply.
 
-## Required stack
+## Commands
 
-- Next.js App Router
-- React
-- TypeScript with strict typing
-- Tailwind CSS
-- `react-icons`
-- `db.json` as the initial content/seed source
+```bash
+npm run dev
+npm run lint       # flat ESLint config
+npx tsc --noEmit   # no typecheck script exists
+npm run build      # production build; also runs TypeScript
+```
 
-Respect the versions, package manager, and configuration already present in the repository. Do not replace working configuration or migrate between `app/` and `src/app/` without a clear need.
+- There is no test runner, test script, or CI. Do not invent or claim test results.
+- Verify meaningful changes in this order: `npm run lint` -> `npx tsc --noEmit` -> `npm run build`. The build succeeds without `SITE_URL`.
 
-## Before making changes
+## Architecture
 
-1. Inspect the repository and read `AGENTS.md`, `PROMPT.md`, `ARCHITECTURE.md`, `README.md`, `package.json`, `db.json`, and relevant source files when they exist.
-2. Identify the existing routing root, package manager, scripts, dependencies, and current implementation status.
-3. Give a concise plan for multi-step changes, then proceed with implementation. Do not stop after describing the plan.
-4. Preserve existing working features and user-authored content. Avoid broad rewrites when a focused change will work.
-5. Never claim a test, build, or command passed unless you actually ran it and checked its result.
+- Single App Router root: `src/app/`; alias `@/*` points to `src/*`. Do not create a root `app/` or a second route tree.
+- `src/lib/data.ts` is the only module that reads `db.json`. It is `server-only`, validates and deep-freezes the data at import, and strips private product URLs. Never import it from a Client Component.
+- Public creation getters return only `published` rows. Add new queries to `src/lib/data.ts` instead of filtering ad hoc in pages.
+- When adding data, update `src/types/*`, the runtime guards in `src/lib/data.ts`, and `db.json` together. Missing nested fields fail validation even when empty strings are allowed.
+- `toPublicCreation` intentionally omits `product.fileUrl`. Never expose private download URLs or imply that checkout/downloads work.
+- Pages stay thin and compose components from `src/components/{home,profile,creations,contact,layout,ui}`. Server Components are the default. Current Client Components are `src/app/error.tsx`, `ContactForm`, `ContentImage`, `CreationCarousel`, and `MobileMenu`; add `"use client"` only for real browser interactivity.
+- `params` are Promises (`const { category } = await params`). `LayoutProps` and `PageProps` are generated global types.
+- Creation routes call `notFound()` for an unknown category/slug, a category mismatch, or unpublished records. `export const instant = false` in `src/app/creations/[category]/page.tsx` and `[slug]/page.tsx` is deliberate; do not remove it without reading the Next.js 16 `instant` and streaming docs.
+- `cacheComponents` and `partialPrefetching` are enabled. Dev may report instant-navigation or static-shell warnings; fix them per the bundled docs rather than disabling the features.
 
-## Language and content rules
+## Styling
 
-- All visible website content must be in professional, natural Bengali unless a technical term, brand name, proper noun, URL, or user-supplied title should remain as-is.
-- Use a Bengali-friendly font such as Noto Sans Bengali, with reliable fallbacks.
-- Do not invent the person's name, biography, education, institution, employment history, awards, publications, social links, contact information, prices, reviews, or testimonials.
-- Use editable placeholders where information is missing. Make placeholders easy to find and replace.
-- Do not present template records as real published works.
-- Keep Bengali text readable with suitable line-height, spacing, and responsive typography.
+- Tailwind 4 is loaded through `@tailwindcss/turbopack` in `next.config.ts` and `@import "tailwindcss"` in `globals.css`; there is no Tailwind config file.
+- Components use semantic custom CSS classes (`site-container`, `creation-card`, ...), not utility classes. Put new styles in `src/app/globals.css` and reuse the `:root` tokens (`--color-*`, `--font-body`, `--radius-card`, `--shadow-card`). Do not introduce a second styling system.
+- Preserve the forest-green/cream/amber editorial theme: deep-green hero and footer bands, a cream page surface, white rounded cards, amber pill buttons, wave-shaped section edges, and small four-point sparkles. Keep readable line-height, visible focus states, `prefers-reduced-motion`, and keyboard accessibility. Use `react-icons`; never use emoji as UI icons.
+- Typography is Poppins via `next/font/google` (`--font-poppins` on `<html>`, consumed through `--font-body`). Keep an English sans-serif fallback stack.
 
-## Design system
+## Content and data
 
-- Use a premium, minimal, editorial visual style.
-- Main theme: dark forest-green gradient, white/off-white text, restrained green/teal gradient buttons, subtle borders, and tasteful shadows.
-- Prioritize clarity, readability, consistency, and mobile-first responsive behavior.
-- Avoid visual clutter, excessive glassmorphism, neon effects, excessive animations, and generic dashboard styling.
-- Use a consistent set of design tokens for colors, spacing, radius, typography, and shadows.
-- Respect `prefers-reduced-motion`.
-- Use semantic HTML and accessible controls. Provide visible focus states, keyboard support, appropriate contrast, useful image alt text, and accessible labels for icon-only buttons.
-- Use `react-icons` for interface icons; do not use emoji as UI icons.
+- `db.json` top-level keys: `site`, `profile`, `categories`, `creations`. Validation rejects unknown `categoryId`, duplicate IDs/slugs/category `order`, wrong types, and unknown statuses.
+- Status is `draft`, `published`, or `archived`. Only `published` may appear on public pages, metadata, sitemap, or related lists. Do not add a demo mode or publish sample records.
+- At the time of writing, all 78 creations are `draft` (including six `demo-*` fixtures), so catalog pages intentionally show empty states. `public/` contains no files yet.
+- Category order comes from `category.order` (1-6: Poems, Short Stories, Books, Islamic Music, Novels, Music Videos). Keep it data-driven. Current slugs are `poems`, `short-stories`, `books`, `islamic-music`, `novels`, `music-videos`.
+- Image paths are public URLs such as `/images/...`; missing or failed local images use the `ContentImage` fallback. Do not use remote image URLs without configuring `next/image`.
+- The contact form is demo-only and must keep stating that no message was sent. Do not fake email delivery, payments, purchases, or downloads.
+- `SITE_URL` must be an origin only (for example `https://example.com`). It drives canonical/Open Graph URLs and the sitemap; if unset there is no canonical URL and the sitemap is empty; invalid values throw. Never hardcode a domain.
 
-## Architecture and code quality
+## Content policy
 
-- Use Next.js App Router conventions and TypeScript.
-- Prefer Server Components by default. Add Client Components only when browser-side interactivity is needed.
-- Keep route pages small and compose them from reusable components.
-- Separate route pages, UI components, domain types, and data-access logic.
-- Centralize all content reading and querying in a data-access layer such as `src/lib/data.ts` (adapt the path to the existing project).
-- Components must not independently parse or import `db.json` in many places.
-- Create and reuse typed models for site settings, profile, education, career journey, category, creation, product, media, and contact-form data.
-- Use stable IDs and unique slugs; never use array indexes as persistent identities.
-- Keep category order controlled by category data, not duplicated in multiple components.
-- Handle missing, malformed, or optional fields safely.
-- Avoid `any` unless there is a documented, unavoidable reason. Prefer explicit types, type guards, and clear function signatures.
-- Avoid unnecessary dependencies. Reuse existing packages when suitable.
-- Do not duplicate components or business logic to implement similar routes.
-- Do not silence TypeScript, lint, or build errors with broad casts, blanket ignores, or disabled rules as a shortcut.
-- Keep secrets in environment variables. Never hardcode credentials or commit `.env` files.
+- All user-visible copy, labels, validation messages, metadata, numbers, dates, and empty states must be natural English (`lang="en"`, `en-US` formatting), except brands, proper nouns, URLs, and technical terms. Keep English copy consistent even when adding new components.
+- Template placeholders in `db.json` start with "Add …" or "Edit …". `src/lib/placeholder.ts` keeps them out of rendered biography, interest, and media sections until the owner supplies verified content.
+- Never invent the person's name, biography, education, career, awards, publications, social links, contact details, prices, reviews, or testimonials. Use editable `db.json` placeholders and omit blank fields instead of rendering fabricated facts.
+- Do not present template or demo records as real works. Confirm content and usage rights before setting `status: "published"`.
 
-## Content data rules
+## Routes
 
-- Treat `db.json` as seed/content data for early development, not as a production database.
-- Expected top-level keys: `site`, `profile`, `categories`, `creations`.
-- Each creation must reference a valid category ID and have a unique slug.
-- Supported content states: `draft`, `published`, `archived`.
-- Public pages, search results, related items, SEO metadata, and sitemap must include only `published` records.
-- Keep sample/template creations in `draft` until verified real content is supplied.
-- Empty social URLs, contact fields, optional media, and missing publication dates must be handled gracefully rather than rendered as broken UI.
-- Do not expose private paid-download URLs or secrets in public page data.
+`/`, `/about`, `/creations`, `/creations/[category]`, `/creations/[category]/[slug]`, `/contact`, `/privacy`, plus `robots.ts` and `sitemap.ts`. See `README.md` for the route map and current limitations.
 
-## Required route conventions
+## Before finishing
 
-- `/` — homepage
-- `/about` — profile and background
-- `/creations` — all creation categories
-- `/creations/[category]` — one category's published works
-- `/creations/[category]/[slug]` — individual work details
-- `/contact` — contact details and contact form
-- `/privacy` — contact-form privacy notice
-- Add suitable not-found, loading, and error states when appropriate.
-
-Unknown category slugs, unknown creation slugs, category/creation mismatches, and unpublished records should not be rendered as public detail pages; use Next.js `notFound()` where appropriate.
-
-## Homepage and profile requirements
-
-- Homepage has a responsive navbar, hero section, six creation shelves, CTA banner, and footer.
-- The six creation categories, in order, are: কবিতা, ছোটগল্প, বই, ইসলামী সংগীত, উপন্যাস, সংগীত ভিডিও.
-- Each homepage shelf shows up to six published cards, has accessible carousel controls where needed, and links to the category page.
-- Creation cards link to the corresponding dynamic detail route.
-- Profile page includes introduction, professional journey, education, creative life, interests/hobbies, and “আমার কিছু কথা”.
-- Use data-driven reusable components for repeated card patterns.
-- Do not display blank fields as fabricated facts.
-
-## Forms and external integrations
-
-- Validate contact form inputs and show clear Bengali status/error messages.
-- Until a backend endpoint or email service is configured, clearly treat form submission as a demo/not connected. Never claim a message was sent when it was not.
-- Do not create fake working buttons for unimplemented integrations.
-- Only render social links when valid URLs are configured.
-- Only embed YouTube or audio media when a valid source exists.
-- Do not fake payment success, purchase completion, or digital downloads.
-- Before paid digital downloads go live, implement server-side payment/order verification, access authorization, and secure file delivery. A private file URL must never be exposed as a free public link.
-
-## SEO and performance
-
-- Add appropriate Bengali page metadata and sensible Open Graph defaults.
-- Do not include draft or archived creations in metadata, sitemap, or public content.
-- Use responsive images with suitable sizes and alt text.
-- Avoid unnecessary client-side JavaScript and large dependencies.
-- Ensure useful loading, empty, error, and not-found states.
-- Prefer accessible, performant patterns over decorative effects that harm usability.
-
-## Testing and completion
-
-After meaningful changes:
-
-1. Run the repository's available lint command.
-2. Run the available TypeScript/type-check command.
-3. Run the production build when feasible.
-4. Fix errors caused by your changes and report any checks that could not run.
-5. Test key routes, mobile navigation, category filtering, dynamic detail routing, missing images/optional links, and form validation when feasible.
-6. Update `README.md` with setup, scripts, content editing, image replacement, route map, and current limitations when project-level changes warrant it.
-
-## Working style
-
-- Implement the requested task, not just a tutorial or conceptual answer.
-- For multi-step work, use small, verifiable phases.
-- Before editing a file, understand its purpose and check how it is used.
-- Prefer minimal, maintainable changes that fit the existing project.
-- If a requirement conflicts with the current architecture, explain the conflict briefly and choose the safest maintainable approach.
-- At completion, summarize what changed, list checks actually run, and mention remaining limitations or follow-up steps.
+- Run lint, typecheck, and build; report what actually ran and any check that could not run.
+- Update `README.md` when setup, scripts, content editing, assets, routes, or limitations change.

@@ -4,10 +4,10 @@ export default function LoadingPage() {
       className="route-state"
       role="status"
       aria-live="polite"
-      aria-label="পৃষ্ঠা লোড হচ্ছে"
+      aria-label="Loading page"
     >
       <span className="loading-indicator" aria-hidden="true" />
-      <p className="route-state-description">পৃষ্ঠা লোড হচ্ছে…</p>
+      <p className="route-state-description">Loading page…</p>
     </section>
   );
 }

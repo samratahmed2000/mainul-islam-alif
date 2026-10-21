@@ -1,10 +1,10 @@
 {
   "site": {
-    "name": "মাইনুল ইসলাম আলিফ",
-    "designation": "ব্যাংকার • লেখক • ইসলামী সংগীতশিল্পী",
-    "tagline": "শব্দে, সুরে ও জীবনের অভিজ্ঞতায়",
-    "language": "bn",
-    "description": "একজন ব্যাংকার, লেখক ও ইসলামী সংগীতশিল্পীর ব্যক্তিগত পরিচিতি এবং সৃষ্টিকর্মের ডিজিটাল সংগ্রহশালা।",
+    "name": "Mainul Islam Alif",
+    "designation": "Banker • Writer • Islamic Music Artist",
+    "tagline": "In words, melody, and the experience of life",
+    "language": "en",
+    "description": "The personal introduction and digital archive of a banker, writer, and Islamic music artist.",
     "logo": "/images/logo.svg",
     "heroImage": "/images/profile/hero.jpg",
     "profileImage": "/images/profile/profile.jpg",
@@ -19,63 +19,63 @@
       "email": "rudduremegh@gmail.com",
       "phone": "+8801718271702",
       "address": "Gazipur, Dhaka, Bangladesh, 1720",
-      "availability": "যোগাযোগের মাধ্যমে সময় নির্ধারণ করুন"
+      "availability": "Get in touch to schedule a time"
     },
     "scheduleUrl": "",
     "currency": "BDT"
   },
   "profile": {
-    "intro": "এখানে লেখকের যাচাইকৃত সংক্ষিপ্ত পরিচিতি যোগ করুন।",
-    "background": "এখানে পারিবারিক ও ব্যক্তিগত পটভূমির তথ্য যোগ করুন।",
-    "personality": "এখানে ব্যক্তিত্বের বর্ণনা যোগ করুন।",
-    "professionalSummary": "এখানে পেশাগত জীবনের সারাংশ যোগ করুন।",
-    "writingAndMusicOverview": "এখানে লেখালেখি ও ইসলামী সংগীতচর্চার পরিচিতি যোগ করুন।",
+    "intro": "Add the author's verified short introduction here.",
+    "background": "Add family and personal background information here.",
+    "personality": "Add a description of the person's personality here.",
+    "professionalSummary": "Add a summary of the professional journey here.",
+    "writingAndMusicOverview": "Add an overview of the writing and Islamic music practice here.",
     "professionalJourney": [
       {
         "id": "career-1",
-        "title": "প্রাথমিক কর্মজীবন",
+        "title": "Early career",
         "organization": "",
         "period": "",
-        "description": "যাচাইকৃত তথ্য যোগ করুন।",
+        "description": "Add verified information.",
         "icon": "BriefcaseBusiness"
       },
       {
         "id": "career-2",
-        "title": "দায়িত্ব ও দক্ষতার বিকাশ",
+        "title": "Building responsibility and skills",
         "organization": "",
         "period": "",
-        "description": "যাচাইকৃত তথ্য যোগ করুন।",
+        "description": "Add verified information.",
         "icon": "TrendingUp"
       },
       {
         "id": "career-3",
-        "title": "বর্তমান পেশাগত ভূমিকা",
+        "title": "Current professional role",
         "organization": "",
         "period": "",
-        "description": "যাচাইকৃত তথ্য যোগ করুন।",
+        "description": "Add verified information.",
         "icon": "Building2"
       },
       {
         "id": "career-4",
-        "title": "লেখালেখির যাত্রা",
+        "title": "The writing journey",
         "organization": "",
         "period": "",
-        "description": "যাচাইকৃত তথ্য যোগ করুন।",
+        "description": "Add verified information.",
         "icon": "PenLine"
       },
       {
         "id": "career-5",
-        "title": "সৃজনশীল কাজ ও ভবিষ্যৎ লক্ষ্য",
+        "title": "Creative work and future goals",
         "organization": "",
         "period": "",
-        "description": "যাচাইকৃত তথ্য যোগ করুন।",
+        "description": "Add verified information.",
         "icon": "Sparkles"
       }
     ],
     "education": [
       {
         "id": "edu-1",
-        "degree": "ব্যাংকিং ও ফাইন্যান্স",
+        "degree": "Banking and Finance",
         "institution": "",
         "department": "",
         "year": "",
@@ -84,36 +84,36 @@
       },
       {
         "id": "edu-2",
-        "degree": "এমএসসি — রসায়ন",
+        "degree": "MSc — Chemistry",
         "institution": "",
-        "department": "রসায়ন",
+        "department": "Chemistry",
         "year": "",
         "result": "",
         "icon": "FlaskConical"
       },
       {
         "id": "edu-3",
-        "degree": "বিএসসি — রসায়ন",
+        "degree": "BSc — Chemistry",
         "institution": "",
-        "department": "রসায়ন",
+        "department": "Chemistry",
         "year": "",
         "result": "",
         "icon": "BookOpen"
       },
       {
         "id": "edu-4",
-        "degree": "এইচএসসি — বিজ্ঞান",
+        "degree": "HSC — Science",
         "institution": "",
-        "department": "বিজ্ঞান",
+        "department": "Science",
         "year": "",
         "result": "",
         "icon": "Atom"
       },
       {
         "id": "edu-5",
-        "degree": "এসএসসি — বিজ্ঞান",
+        "degree": "SSC — Science",
         "institution": "",
-        "department": "বিজ্ঞান",
+        "department": "Science",
         "year": "",
         "result": "",
         "icon": "School"
@@ -122,114 +122,114 @@
     "creativeLife": [
       {
         "id": "creative-1",
-        "title": "লেখালেখিতে আসার গল্প",
-        "description": "লেখকের নিজস্ব বক্তব্য যোগ করুন।",
+        "title": "How I came to writing",
+        "description": "Add the author's own words.",
         "icon": "Feather"
       },
       {
         "id": "creative-2",
-        "title": "অনুপ্রেরণা",
-        "description": "লেখকের নিজস্ব বক্তব্য যোগ করুন।",
+        "title": "Inspiration",
+        "description": "Add the author's own words.",
         "icon": "Lightbulb"
       },
       {
         "id": "creative-3",
-        "title": "প্রিয় বিষয়",
-        "description": "লেখকের নিজস্ব বক্তব্য যোগ করুন।",
+        "title": "Favourite subjects",
+        "description": "Add the author's own words.",
         "icon": "Heart"
       },
       {
         "id": "creative-4",
-        "title": "ভবিষ্যৎ পরিকল্পনা",
-        "description": "লেখকের নিজস্ব বক্তব্য যোগ করুন।",
+        "title": "Future plans",
+        "description": "Add the author's own words.",
         "icon": "Compass"
       }
     ],
     "interests": [
       {
         "id": "interest-1",
-        "title": "পড়া ও লেখা",
-        "description": "ব্যক্তির প্রকৃত পছন্দ অনুযায়ী সম্পাদনা করুন।",
+        "title": "Reading and writing",
+        "description": "Edit this to match the person's real interests.",
         "icon": "BookOpen"
       },
       {
         "id": "interest-2",
-        "title": "ইসলামী সংগীত",
-        "description": "ব্যক্তির প্রকৃত পছন্দ অনুযায়ী সম্পাদনা করুন।",
+        "title": "Islamic Music",
+        "description": "Edit this to match the person's real interests.",
         "icon": "Music"
       },
       {
         "id": "interest-3",
-        "title": "সৃজনশীলতা",
-        "description": "ব্যক্তির প্রকৃত পছন্দ অনুযায়ী সম্পাদনা করুন।",
+        "title": "Creativity",
+        "description": "Edit this to match the person's real interests.",
         "icon": "Palette"
       },
       {
         "id": "interest-4",
-        "title": "জ্ঞানচর্চা",
-        "description": "ব্যক্তির প্রকৃত পছন্দ অনুযায়ী সম্পাদনা করুন।",
+        "title": "Learning",
+        "description": "Edit this to match the person's real interests.",
         "icon": "Brain"
       }
     ],
     "personalWords": [
-      "এখানে লেখকের নিজের ভাষায় প্রথম অনুচ্ছেদ যোগ করুন।",
-      "এখানে লেখকের নিজের ভাষায় দ্বিতীয় অনুচ্ছেদ যোগ করুন।",
-      "এখানে লেখকের নিজের ভাষায় তৃতীয় অনুচ্ছেদ যোগ করুন।",
-      "এখানে লেখকের নিজের ভাষায় চতুর্থ অনুচ্ছেদ যোগ করুন।"
+      "Add the author's own words for the first paragraph here.",
+      "Add the author's own words for the second paragraph here.",
+      "Add the author's own words for the third paragraph here.",
+      "Add the author's own words for the fourth paragraph here."
     ]
   },
   "categories": [
     {
       "id": "poem",
       "slug": "poems",
-      "name": "কবিতা",
-      "singular": "কবিতা",
-      "description": "কবিতার সংগ্রহ",
+      "name": "Poems",
+      "singular": "Poem",
+      "description": "A collection of poems",
       "icon": "Feather",
       "order": 1
     },
     {
       "id": "short-story",
       "slug": "short-stories",
-      "name": "ছোটগল্প",
-      "singular": "ছোটগল্প",
-      "description": "ছোটগল্পের সংগ্রহ",
+      "name": "Short Stories",
+      "singular": "Short Story",
+      "description": "A collection of short stories",
       "icon": "BookOpenText",
       "order": 2
     },
     {
       "id": "book",
       "slug": "books",
-      "name": "বই",
-      "singular": "বই",
-      "description": "প্রকাশিত ও ডিজিটাল বই",
+      "name": "Books",
+      "singular": "Book",
+      "description": "Published and digital books",
       "icon": "Book",
       "order": 3
     },
     {
       "id": "islamic-music",
       "slug": "islamic-music",
-      "name": "ইসলামী সংগীত",
-      "singular": "ইসলামী সংগীত",
-      "description": "ইসলামী সংগীতের সংগ্রহ",
+      "name": "Islamic Music",
+      "singular": "Islamic Music",
+      "description": "A collection of Islamic music",
       "icon": "Music",
       "order": 4
     },
     {
       "id": "novel",
       "slug": "novels",
-      "name": "উপন্যাস",
-      "singular": "উপন্যাস",
-      "description": "উপন্যাসের সংগ্রহ",
+      "name": "Novels",
+      "singular": "Novel",
+      "description": "A collection of novels",
       "icon": "LibraryBig",
       "order": 5
     },
     {
       "id": "music-video",
       "slug": "music-videos",
-      "name": "সংগীত ভিডিও",
-      "singular": "সংগীত ভিডিও",
-      "description": "ইউটিউবে প্রকাশিত সংগীত ভিডিও",
+      "name": "Music Videos",
+      "singular": "Music Video",
+      "description": "Music videos published on YouTube",
       "icon": "Clapperboard",
       "order": 6
     }
@@ -239,16 +239,16 @@
       "id": "poem-01",
       "slug": "poems-sample-01",
       "categoryId": "poem",
-      "title": "নমুনা কবিতা ০১",
+      "title": "Sample Poem 01",
       "subtitle": "",
-      "excerpt": "কবিতার সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
-      "description": "কবিতার সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
+      "excerpt": "Add a short introduction to the poem here.",
+      "description": "Add a short introduction to the poem here.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -267,24 +267,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা কবিতা ০১",
-        "description": "কবিতার সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।"
+        "title": "Sample Poem 01",
+        "description": "Add a short introduction to the poem here."
       }
     },
     {
       "id": "poem-02",
       "slug": "poems-sample-02",
       "categoryId": "poem",
-      "title": "নমুনা কবিতা ০২",
+      "title": "Sample Poem 02",
       "subtitle": "",
-      "excerpt": "কবিতার সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন。",
-      "description": "কবিতার সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন。",
+      "excerpt": "Add a short introduction to the poem here.",
+      "description": "Add a short introduction to the poem here.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -303,24 +303,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা কবিতা ০২",
-        "description": "কবিতার সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন。"
+        "title": "Sample Poem 02",
+        "description": "Add a short introduction to the poem here."
       }
     },
     {
       "id": "poem-03",
       "slug": "poems-sample-03",
       "categoryId": "poem",
-      "title": "নমুনা কবিতা 03",
+      "title": "Sample Poem 03",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -339,24 +339,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা কবিতা 03",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Poem 03",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "poem-04",
       "slug": "poems-sample-04",
       "categoryId": "poem",
-      "title": "নমুনা কবিতা 04",
+      "title": "Sample Poem 04",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -375,24 +375,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা কবিতা 04",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Poem 04",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "poem-05",
       "slug": "poems-sample-05",
       "categoryId": "poem",
-      "title": "নমুনা কবিতা 05",
+      "title": "Sample Poem 05",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -411,24 +411,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা কবিতা 05",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Poem 05",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "poem-06",
       "slug": "poems-sample-06",
       "categoryId": "poem",
-      "title": "নমুনা কবিতা 06",
+      "title": "Sample Poem 06",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -447,24 +447,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা কবিতা 06",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Poem 06",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "poem-07",
       "slug": "poems-sample-07",
       "categoryId": "poem",
-      "title": "নমুনা কবিতা 07",
+      "title": "Sample Poem 07",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -483,24 +483,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা কবিতা 07",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Poem 07",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "poem-08",
       "slug": "poems-sample-08",
       "categoryId": "poem",
-      "title": "নমুনা কবিতা 08",
+      "title": "Sample Poem 08",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -519,24 +519,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা কবিতা 08",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Poem 08",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "poem-09",
       "slug": "poems-sample-09",
       "categoryId": "poem",
-      "title": "নমুনা কবিতা 09",
+      "title": "Sample Poem 09",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -555,24 +555,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা কবিতা 09",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Poem 09",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "poem-10",
       "slug": "poems-sample-10",
       "categoryId": "poem",
-      "title": "নমুনা কবিতা 10",
+      "title": "Sample Poem 10",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -591,24 +591,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা কবিতা 10",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Poem 10",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "poem-11",
       "slug": "poems-sample-11",
       "categoryId": "poem",
-      "title": "নমুনা কবিতা 11",
+      "title": "Sample Poem 11",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -627,24 +627,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা কবিতা 11",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Poem 11",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "poem-12",
       "slug": "poems-sample-12",
       "categoryId": "poem",
-      "title": "নমুনা কবিতা 12",
+      "title": "Sample Poem 12",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -663,24 +663,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা কবিতা 12",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Poem 12",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "short-story-01",
       "slug": "short-stories-sample-01",
       "categoryId": "short-story",
-      "title": "নমুনা ছোটগল্প ০১",
+      "title": "Sample Short Story 01",
       "subtitle": "",
-      "excerpt": "গল্পের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
-      "description": "গল্পের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
+      "excerpt": "Add a short introduction to the story here.",
+      "description": "Add a short introduction to the story here.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -699,24 +699,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ছোটগল্প ০১",
-        "description": "গল্পের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।"
+        "title": "Sample Short Story 01",
+        "description": "Add a short introduction to the story here."
       }
     },
     {
       "id": "short-story-02",
       "slug": "short-stories-sample-02",
       "categoryId": "short-story",
-      "title": "নমুনা ছোটগল্প ০২",
+      "title": "Sample Short Story 02",
       "subtitle": "",
-      "excerpt": "গল্পের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
-      "description": "গল্পের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
+      "excerpt": "Add a short introduction to the story here.",
+      "description": "Add a short introduction to the story here.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -735,24 +735,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ছোটগল্প ০২",
-        "description": "গল্পের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।"
+        "title": "Sample Short Story 02",
+        "description": "Add a short introduction to the story here."
       }
     },
     {
       "id": "short-story-03",
       "slug": "short-stories-sample-03",
       "categoryId": "short-story",
-      "title": "নমুনা ছোটগল্প 03",
+      "title": "Sample Short Story 03",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -771,24 +771,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ছোটগল্প 03",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Short Story 03",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "short-story-04",
       "slug": "short-stories-sample-04",
       "categoryId": "short-story",
-      "title": "নমুনা ছোটগল্প 04",
+      "title": "Sample Short Story 04",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -807,24 +807,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ছোটগল্প 04",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Short Story 04",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "short-story-05",
       "slug": "short-stories-sample-05",
       "categoryId": "short-story",
-      "title": "নমুনা ছোটগল্প 05",
+      "title": "Sample Short Story 05",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -843,24 +843,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ছোটগল্প 05",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Short Story 05",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "short-story-06",
       "slug": "short-stories-sample-06",
       "categoryId": "short-story",
-      "title": "নমুনা ছোটগল্প 06",
+      "title": "Sample Short Story 06",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -879,24 +879,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ছোটগল্প 06",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Short Story 06",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "short-story-07",
       "slug": "short-stories-sample-07",
       "categoryId": "short-story",
-      "title": "নমুনা ছোটগল্প 07",
+      "title": "Sample Short Story 07",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -915,24 +915,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ছোটগল্প 07",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Short Story 07",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "short-story-08",
       "slug": "short-stories-sample-08",
       "categoryId": "short-story",
-      "title": "নমুনা ছোটগল্প 08",
+      "title": "Sample Short Story 08",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -951,24 +951,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ছোটগল্প 08",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Short Story 08",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "short-story-09",
       "slug": "short-stories-sample-09",
       "categoryId": "short-story",
-      "title": "নমুনা ছোটগল্প 09",
+      "title": "Sample Short Story 09",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -987,24 +987,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ছোটগল্প 09",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Short Story 09",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "short-story-10",
       "slug": "short-stories-sample-10",
       "categoryId": "short-story",
-      "title": "নমুনা ছোটগল্প 10",
+      "title": "Sample Short Story 10",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1023,24 +1023,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ছোটগল্প 10",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Short Story 10",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "short-story-11",
       "slug": "short-stories-sample-11",
       "categoryId": "short-story",
-      "title": "নমুনা ছোটগল্প 11",
+      "title": "Sample Short Story 11",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1059,24 +1059,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ছোটগল্প 11",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Short Story 11",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "short-story-12",
       "slug": "short-stories-sample-12",
       "categoryId": "short-story",
-      "title": "নমুনা ছোটগল্প 12",
+      "title": "Sample Short Story 12",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1095,24 +1095,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ছোটগল্প 12",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Short Story 12",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "book-01",
       "slug": "books-sample-01",
       "categoryId": "book",
-      "title": "নমুনা বই ০১",
+      "title": "Sample Book 01",
       "subtitle": "",
-      "excerpt": "বইয়ের বিবরণ, লেখক-তথ্য ও সংস্করণ এখানে যোগ করুন।",
-      "description": "বইয়ের বিবরণ, লেখক-তথ্য ও সংস্করণ এখানে যোগ করুন।",
+      "excerpt": "Add the book details, author information, and edition here.",
+      "description": "Add the book details, author information, and edition here.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1131,24 +1131,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা বই ০১",
-        "description": "বইয়ের বিবরণ, লেখক-তথ্য ও সংস্করণ এখানে যোগ করুন।"
+        "title": "Sample Book 01",
+        "description": "Add the book details, author information, and edition here."
       }
     },
     {
       "id": "book-02",
       "slug": "books-sample-02",
       "categoryId": "book",
-      "title": "নমুনা বই ০২",
+      "title": "Sample Book 02",
       "subtitle": "",
-      "excerpt": "বইয়ের বিবরণ, লেখক-তথ্য ও সংস্করণ এখানে যোগ করুন।",
-      "description": "বইয়ের বিবরণ, লেখক-তথ্য ও সংস্করণ এখানে যোগ করুন।",
+      "excerpt": "Add the book details, author information, and edition here.",
+      "description": "Add the book details, author information, and edition here.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1167,24 +1167,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা বই ০২",
-        "description": "বইয়ের বিবরণ, লেখক-তথ্য ও সংস্করণ এখানে যোগ করুন।"
+        "title": "Sample Book 02",
+        "description": "Add the book details, author information, and edition here."
       }
     },
     {
       "id": "book-03",
       "slug": "books-sample-03",
       "categoryId": "book",
-      "title": "নমুনা বই 03",
+      "title": "Sample Book 03",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1203,24 +1203,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা বই 03",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Book 03",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "book-04",
       "slug": "books-sample-04",
       "categoryId": "book",
-      "title": "নমুনা বই 04",
+      "title": "Sample Book 04",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1239,24 +1239,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা বই 04",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Book 04",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "book-05",
       "slug": "books-sample-05",
       "categoryId": "book",
-      "title": "নমুনা বই 05",
+      "title": "Sample Book 05",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1275,24 +1275,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা বই 05",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Book 05",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "book-06",
       "slug": "books-sample-06",
       "categoryId": "book",
-      "title": "নমুনা বই 06",
+      "title": "Sample Book 06",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1311,24 +1311,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা বই 06",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Book 06",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "book-07",
       "slug": "books-sample-07",
       "categoryId": "book",
-      "title": "নমুনা বই 07",
+      "title": "Sample Book 07",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1347,24 +1347,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা বই 07",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Book 07",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "book-08",
       "slug": "books-sample-08",
       "categoryId": "book",
-      "title": "নমুনা বই 08",
+      "title": "Sample Book 08",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1383,24 +1383,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা বই 08",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Book 08",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "book-09",
       "slug": "books-sample-09",
       "categoryId": "book",
-      "title": "নমুনা বই 09",
+      "title": "Sample Book 09",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1419,24 +1419,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা বই 09",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Book 09",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "book-10",
       "slug": "books-sample-10",
       "categoryId": "book",
-      "title": "নমুনা বই 10",
+      "title": "Sample Book 10",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1455,24 +1455,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা বই 10",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Book 10",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "book-11",
       "slug": "books-sample-11",
       "categoryId": "book",
-      "title": "নমুনা বই 11",
+      "title": "Sample Book 11",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1491,24 +1491,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা বই 11",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Book 11",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "book-12",
       "slug": "books-sample-12",
       "categoryId": "book",
-      "title": "নমুনা বই 12",
+      "title": "Sample Book 12",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1527,24 +1527,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা বই 12",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Book 12",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "islamic-music-01",
       "slug": "islamic-music-sample-01",
       "categoryId": "islamic-music",
-      "title": "নমুনা ইসলামী সংগীত ০১",
+      "title": "Sample Islamic Music 01",
       "subtitle": "",
-      "excerpt": "গানের পরিচিতি, শিল্পী ও প্রকাশনার তথ্য এখানে যোগ করুন।",
-      "description": "গানের পরিচিতি, শিল্পী ও প্রকাশনার তথ্য এখানে যোগ করুন।",
+      "excerpt": "Add song details, artist, and release information here.",
+      "description": "Add song details, artist, and release information here.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1563,24 +1563,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ইসলামী সংগীত ০১",
-        "description": "গানের পরিচিতি, শিল্পী ও প্রকাশনার তথ্য এখানে যোগ করুন।"
+        "title": "Sample Islamic Music 01",
+        "description": "Add song details, artist, and release information here."
       }
     },
     {
       "id": "islamic-music-02",
       "slug": "islamic-music-sample-02",
       "categoryId": "islamic-music",
-      "title": "নমুনা ইসলামী সংগীত ০২",
+      "title": "Sample Islamic Music 02",
       "subtitle": "",
-      "excerpt": "গানের পরিচিতি, শিল্পী ও প্রকাশনার তথ্য এখানে যোগ করুন।",
-      "description": "গানের পরিচিতি, শিল্পী ও প্রকাশনার তথ্য এখানে যোগ করুন।",
+      "excerpt": "Add song details, artist, and release information here.",
+      "description": "Add song details, artist, and release information here.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1599,24 +1599,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ইসলামী সংগীত ০২",
-        "description": "গানের পরিচিতি, শিল্পী ও প্রকাশনার তথ্য এখানে যোগ করুন।"
+        "title": "Sample Islamic Music 02",
+        "description": "Add song details, artist, and release information here."
       }
     },
     {
       "id": "islamic-music-03",
       "slug": "islamic-music-sample-03",
       "categoryId": "islamic-music",
-      "title": "নমুনা ইসলামী সংগীত 03",
+      "title": "Sample Islamic Music 03",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1635,24 +1635,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ইসলামী সংগীত 03",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Islamic Music 03",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "islamic-music-04",
       "slug": "islamic-music-sample-04",
       "categoryId": "islamic-music",
-      "title": "নমুনা ইসলামী সংগীত 04",
+      "title": "Sample Islamic Music 04",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1671,24 +1671,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ইসলামী সংগীত 04",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Islamic Music 04",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "islamic-music-05",
       "slug": "islamic-music-sample-05",
       "categoryId": "islamic-music",
-      "title": "নমুনা ইসলামী সংগীত 05",
+      "title": "Sample Islamic Music 05",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1707,24 +1707,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ইসলামী সংগীত 05",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Islamic Music 05",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "islamic-music-06",
       "slug": "islamic-music-sample-06",
       "categoryId": "islamic-music",
-      "title": "নমুনা ইসলামী সংগীত 06",
+      "title": "Sample Islamic Music 06",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1743,24 +1743,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ইসলামী সংগীত 06",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Islamic Music 06",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "islamic-music-07",
       "slug": "islamic-music-sample-07",
       "categoryId": "islamic-music",
-      "title": "নমুনা ইসলামী সংগীত 07",
+      "title": "Sample Islamic Music 07",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1779,24 +1779,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ইসলামী সংগীত 07",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Islamic Music 07",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "islamic-music-08",
       "slug": "islamic-music-sample-08",
       "categoryId": "islamic-music",
-      "title": "নমুনা ইসলামী সংগীত 08",
+      "title": "Sample Islamic Music 08",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1815,24 +1815,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ইসলামী সংগীত 08",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Islamic Music 08",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "islamic-music-09",
       "slug": "islamic-music-sample-09",
       "categoryId": "islamic-music",
-      "title": "নমুনা ইসলামী সংগীত 09",
+      "title": "Sample Islamic Music 09",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1851,24 +1851,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ইসলামী সংগীত 09",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Islamic Music 09",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "islamic-music-10",
       "slug": "islamic-music-sample-10",
       "categoryId": "islamic-music",
-      "title": "নমুনা ইসলামী সংগীত 10",
+      "title": "Sample Islamic Music 10",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1887,24 +1887,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ইসলামী সংগীত 10",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Islamic Music 10",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "islamic-music-11",
       "slug": "islamic-music-sample-11",
       "categoryId": "islamic-music",
-      "title": "নমুনা ইসলামী সংগীত 11",
+      "title": "Sample Islamic Music 11",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1923,24 +1923,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ইসলামী সংগীত 11",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Islamic Music 11",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "islamic-music-12",
       "slug": "islamic-music-sample-12",
       "categoryId": "islamic-music",
-      "title": "নমুনা ইসলামী সংগীত 12",
+      "title": "Sample Islamic Music 12",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1959,24 +1959,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা ইসলামী সংগীত 12",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Islamic Music 12",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "novel-01",
       "slug": "novels-sample-01",
       "categoryId": "novel",
-      "title": "নমুনা উপন্যাস ০১",
+      "title": "Sample Novel 01",
       "subtitle": "",
-      "excerpt": "উপন্যাসের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
-      "description": "উপন্যাসের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
+      "excerpt": "Add a short introduction to the novel here.",
+      "description": "Add a short introduction to the novel here.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -1995,24 +1995,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা উপন্যাস ০১",
-        "description": "উপন্যাসের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।"
+        "title": "Sample Novel 01",
+        "description": "Add a short introduction to the novel here."
       }
     },
     {
       "id": "novel-02",
       "slug": "novels-sample-02",
       "categoryId": "novel",
-      "title": "নমুনা উপন্যাস ০২",
+      "title": "Sample Novel 02",
       "subtitle": "",
-      "excerpt": "উপন্যাসের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
-      "description": "উপন্যাসের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।",
+      "excerpt": "Add a short introduction to the novel here.",
+      "description": "Add a short introduction to the novel here.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2031,24 +2031,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা উপন্যাস ০২",
-        "description": "উপন্যাসের সংক্ষিপ্ত পরিচিতি এখানে যোগ করুন।"
+        "title": "Sample Novel 02",
+        "description": "Add a short introduction to the novel here."
       }
     },
     {
       "id": "novel-03",
       "slug": "novels-sample-03",
       "categoryId": "novel",
-      "title": "নমুনা উপন্যাস 03",
+      "title": "Sample Novel 03",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2067,24 +2067,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা উপন্যাস 03",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Novel 03",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "novel-04",
       "slug": "novels-sample-04",
       "categoryId": "novel",
-      "title": "নমুনা উপন্যাস 04",
+      "title": "Sample Novel 04",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2103,24 +2103,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা উপন্যাস 04",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Novel 04",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "novel-05",
       "slug": "novels-sample-05",
       "categoryId": "novel",
-      "title": "নমুনা উপন্যাস 05",
+      "title": "Sample Novel 05",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2139,24 +2139,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা উপন্যাস 05",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Novel 05",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "novel-06",
       "slug": "novels-sample-06",
       "categoryId": "novel",
-      "title": "নমুনা উপন্যাস 06",
+      "title": "Sample Novel 06",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2175,24 +2175,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা উপন্যাস 06",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Novel 06",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "novel-07",
       "slug": "novels-sample-07",
       "categoryId": "novel",
-      "title": "নমুনা উপন্যাস 07",
+      "title": "Sample Novel 07",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2211,24 +2211,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা উপন্যাস 07",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Novel 07",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "novel-08",
       "slug": "novels-sample-08",
       "categoryId": "novel",
-      "title": "নমুনা উপন্যাস 08",
+      "title": "Sample Novel 08",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2247,24 +2247,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা উপন্যাস 08",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Novel 08",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "novel-09",
       "slug": "novels-sample-09",
       "categoryId": "novel",
-      "title": "নমুনা উপন্যাস 09",
+      "title": "Sample Novel 09",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2283,24 +2283,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা উপন্যাস 09",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Novel 09",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "novel-10",
       "slug": "novels-sample-10",
       "categoryId": "novel",
-      "title": "নমুনা উপন্যাস 10",
+      "title": "Sample Novel 10",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2319,24 +2319,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা উপন্যাস 10",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Novel 10",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "novel-11",
       "slug": "novels-sample-11",
       "categoryId": "novel",
-      "title": "নমুনা উপন্যাস 11",
+      "title": "Sample Novel 11",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2355,24 +2355,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা উপন্যাস 11",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Novel 11",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "novel-12",
       "slug": "novels-sample-12",
       "categoryId": "novel",
-      "title": "নমুনা উপন্যাস 12",
+      "title": "Sample Novel 12",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2391,24 +2391,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা উপন্যাস 12",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Novel 12",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "music-video-01",
       "slug": "music-videos-sample-01",
       "categoryId": "music-video",
-      "title": "নমুনা সংগীত ভিডিও ০১",
+      "title": "Sample Music Video 01",
       "subtitle": "",
-      "excerpt": "ভিডিওর বিবরণ ও ইউটিউব লিংক এখানে যোগ করুন।",
-      "description": "ভিডিওর বিবরণ ও ইউটিউব লিংক এখানে যোগ করুন।",
+      "excerpt": "Add the video details and a YouTube link here.",
+      "description": "Add the video details and a YouTube link here.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2427,24 +2427,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা সংগীত ভিডিও ০১",
-        "description": "ভিডিওর বিবরণ ও ইউটিউব লিংক এখানে যোগ করুন।"
+        "title": "Sample Music Video 01",
+        "description": "Add the video details and a YouTube link here."
       }
     },
     {
       "id": "music-video-02",
       "slug": "music-videos-sample-02",
       "categoryId": "music-video",
-      "title": "নমুনা সংগীত ভিডিও ০২",
+      "title": "Sample Music Video 02",
       "subtitle": "",
-      "excerpt": "ভিডিওর বিবরণ ও ইউটিউব লিংক এখানে যোগ করুন।",
-      "description": "ভিডিওর বিবরণ ও ইউটিউব লিংক এখানে যোগ করুন।",
+      "excerpt": "Add the video details and a YouTube link here.",
+      "description": "Add the video details and a YouTube link here.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2463,24 +2463,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা সংগীত ভিডিও ০২",
-        "description": "ভিডিওর বিবরণ ও ইউটিউব লিংক এখানে যোগ করুন।"
+        "title": "Sample Music Video 02",
+        "description": "Add the video details and a YouTube link here."
       }
     },
     {
       "id": "music-video-03",
       "slug": "music-videos-sample-03",
       "categoryId": "music-video",
-      "title": "নমুনা সংগীত ভিডিও 03",
+      "title": "Sample Music Video 03",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2499,24 +2499,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা সংগীত ভিডিও 03",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Music Video 03",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "music-video-04",
       "slug": "music-videos-sample-04",
       "categoryId": "music-video",
-      "title": "নমুনা সংগীত ভিডিও 04",
+      "title": "Sample Music Video 04",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2535,24 +2535,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা সংগীত ভিডিও 04",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Music Video 04",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "music-video-05",
       "slug": "music-videos-sample-05",
       "categoryId": "music-video",
-      "title": "নমুনা সংগীত ভিডিও 05",
+      "title": "Sample Music Video 05",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2571,24 +2571,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা সংগীত ভিডিও 05",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Music Video 05",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "music-video-06",
       "slug": "music-videos-sample-06",
       "categoryId": "music-video",
-      "title": "নমুনা সংগীত ভিডিও 06",
+      "title": "Sample Music Video 06",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": true,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2607,24 +2607,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা সংগীত ভিডিও 06",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Music Video 06",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "music-video-07",
       "slug": "music-videos-sample-07",
       "categoryId": "music-video",
-      "title": "নমুনা সংগীত ভিডিও 07",
+      "title": "Sample Music Video 07",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2643,24 +2643,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা সংগীত ভিডিও 07",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Music Video 07",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "music-video-08",
       "slug": "music-videos-sample-08",
       "categoryId": "music-video",
-      "title": "নমুনা সংগীত ভিডিও 08",
+      "title": "Sample Music Video 08",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2679,24 +2679,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা সংগীত ভিডিও 08",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Music Video 08",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "music-video-09",
       "slug": "music-videos-sample-09",
       "categoryId": "music-video",
-      "title": "নমুনা সংগীত ভিডিও 09",
+      "title": "Sample Music Video 09",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2715,24 +2715,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা সংগীত ভিডিও 09",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Music Video 09",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "music-video-10",
       "slug": "music-videos-sample-10",
       "categoryId": "music-video",
-      "title": "নমুনা সংগীত ভিডিও 10",
+      "title": "Sample Music Video 10",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2751,24 +2751,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা সংগীত ভিডিও 10",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Music Video 10",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "music-video-11",
       "slug": "music-videos-sample-11",
       "categoryId": "music-video",
-      "title": "নমুনা সংগীত ভিডিও 11",
+      "title": "Sample Music Video 11",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2787,24 +2787,24 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা সংগীত ভিডিও 11",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Music Video 11",
+        "description": "This is sample content. Replace it with details about the real work."
       }
     },
     {
       "id": "music-video-12",
       "slug": "music-videos-sample-12",
       "categoryId": "music-video",
-      "title": "নমুনা সংগীত ভিডিও 12",
+      "title": "Sample Music Video 12",
       "subtitle": "",
-      "excerpt": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
-      "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।",
+      "excerpt": "This is sample content. Replace it with details about the real work.",
+      "description": "This is sample content. Replace it with details about the real work.",
       "coverImage": "/images/creations/placeholder-cover.jpg",
       "publishedAt": "",
       "status": "draft",
       "featured": false,
       "tags": [],
-      "creator": "লেখকের নাম",
+      "creator": "Author name",
       "product": {
         "isForSale": false,
         "price": 0,
@@ -2823,8 +2823,236 @@
         "previewText": ""
       },
       "seo": {
-        "title": "নমুনা সংগীত ভিডিও 12",
-        "description": "এটি নমুনা কনটেন্ট। প্রকৃত সৃষ্টির বিবরণ দিয়ে প্রতিস্থাপন করুন।"
+        "title": "Sample Music Video 12",
+        "description": "This is sample content. Replace it with details about the real work."
+      }
+    },
+    {
+      "id": "demo-poem-01",
+      "slug": "demo-poem-preview",
+      "categoryId": "poem",
+      "title": "Demo — The Window at Dawn",
+      "subtitle": "Sample poem · Not a published work",
+      "excerpt": "A piece of light settles on the window after the night's silence — like the promise of a new day.",
+      "description": "Demo poem — not a real published work.\n\nAt the end of the darkened night\nsoft light falls on the window,\na distant bird calls to say—\nthe beginning of the path is still good.\n\nThrough the dust-covered day\nI keep a little hope burning,\nsmall dreams like the dawn\nreturn to open the mind.",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [
+        "Demo"
+      ],
+      "creator": "Demo content",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "Demo — The Window at Dawn",
+        "description": "Sample poem; for layout review only, not a real published work."
+      }
+    },
+    {
+      "id": "demo-short-story-01",
+      "slug": "demo-short-story-preview",
+      "categoryId": "short-story",
+      "title": "Demo — The Last Bus Home",
+      "subtitle": "Sample short story · Not a published work",
+      "excerpt": "A blue notebook left behind at a rain-soaked bus stop teaches two strangers how to talk.",
+      "description": "Demo short story — not a real published work.\n\nEven after the rain stopped, water kept dripping from the tin roof of the bus stop. Rashed noticed the blue notebook lying in a corner of the bench and picked it up. On the first page was a single line: “The one who waits will also, one day, arrive in someone's story.”\n\nJust as the last bus's lights appeared, an elderly woman standing nearby said the notebook belonged to her granddaughter. Rashed handed it to her. She smiled gently and said, “Today I did not have to wait for the bus alone.”",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [
+        "Demo"
+      ],
+      "creator": "Demo content",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "Demo — The Last Bus Home",
+        "description": "Sample short story; for layout review only, not a real published work."
+      }
+    },
+    {
+      "id": "demo-book-01",
+      "slug": "demo-book-preview",
+      "categoryId": "book",
+      "title": "Demo — Small Thoughts",
+      "subtitle": "Sample book introduction · Not a real publication",
+      "excerpt": "A sample introduction to a fictional essay collection about what we see, learn, and think about in everyday life.",
+      "description": "Demo book introduction — this is not a real book and is not for sale.\n\nEach chapter of this fictional collection begins with an ordinary moment: the morning commute, a conversation with someone familiar, or a few minutes alone at the end of the day. In the sample layout, the chapters are arranged around brief observations, questions, and space for the reader's own reflections.\n\nProposed chapters: paying attention, the value of time, and stories of small habits. The real book's title, author, publisher, edition, and ISBN must be verified and added here.",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [
+        "Demo"
+      ],
+      "creator": "Demo content",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "Demo — Small Thoughts",
+        "description": "A sample fictional book introduction; not a real publication or sales offer."
+      }
+    },
+    {
+      "id": "demo-islamic-music-01",
+      "slug": "demo-islamic-music-preview",
+      "categoryId": "islamic-music",
+      "title": "Demo — A Song of Gratitude",
+      "subtitle": "Sample music idea · Not a published song",
+      "excerpt": "A sample introduction to a fictional Islamic song reflecting on gratitude and self-examination.",
+      "description": "Demo music idea — this is not a real song or anyone's published work.\n\nSample lines:\n“For all I have received, I keep a grateful heart,\nstopping on the wrong path, I seek the right identity.”\n\nThis is only an example of content layout. No audio or video may be added until the composition, vocals, lyricist, release information, and usage permission have been verified.",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [
+        "Demo"
+      ],
+      "creator": "Demo content",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "Demo — A Song of Gratitude",
+        "description": "A sample fictional music idea; not a real song or published work."
+      }
+    },
+    {
+      "id": "demo-novel-01",
+      "slug": "demo-novel-preview",
+      "categoryId": "novel",
+      "title": "Demo — Letters from Across the River",
+      "subtitle": "Sample novel introduction · Not a published work",
+      "excerpt": "A fictional story of decisions and memories across two generations, traced through letters found in an old post office.",
+      "description": "Demo novel introduction — this is not a real or published novel.\n\nWhile renovating a post office that is slowly closing in a fictional riverside town, Neera finds several letters without addresses. The letters are dated many years ago, yet each holds a question that remains unanswered in the town today. Searching for the letter writer, Neera learns to see her own decisions, her family's memories, and the town's changing relationships anew.\n\nThis sample exists only to test the story summary and detail layout; it does not imply any real manuscript or publication.",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [
+        "Demo"
+      ],
+      "creator": "Demo content",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "Demo — Letters from Across the River",
+        "description": "A sample fictional novel introduction; not a real manuscript or published work."
+      }
+    },
+    {
+      "id": "demo-music-video-01",
+      "slug": "demo-music-video-preview",
+      "categoryId": "music-video",
+      "title": "Demo — Toward the Light",
+      "subtitle": "Sample video plan · Not a published video",
+      "excerpt": "A short scene plan for a fictional music video about hope and human compassion.",
+      "description": "Demo video plan — this is not a real song or a published music video, and no video link is attached.\n\nScene 1: A quiet road in the soft light of dawn.\nScene 2: A passer-by helps another person with a small task.\nScene 3: As the daylight grows, the road comes alive with people.\n\nThis is only a sample storyboard. The video cannot be published until the song, creator, participants, filming, and release permissions are confirmed.",
+      "coverImage": "/images/creations/placeholder-cover.jpg",
+      "publishedAt": "",
+      "status": "draft",
+      "featured": false,
+      "tags": [
+        "Demo"
+      ],
+      "creator": "Demo content",
+      "product": {
+        "isForSale": false,
+        "price": 0,
+        "currency": "BDT",
+        "productType": "digital",
+        "fileUrl": "",
+        "previewUrl": "",
+        "license": "",
+        "stock": null
+      },
+      "media": {
+        "type": "none",
+        "youtubeUrl": "",
+        "youtubeVideoId": "",
+        "audioUrl": "",
+        "previewText": ""
+      },
+      "seo": {
+        "title": "Demo — Toward the Light",
+        "description": "A sample fictional music video plan; not a real song or published video."
       }
     }
   ]

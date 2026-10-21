@@ -20,14 +20,14 @@ export default function Navbar() {
   return (
     <header className="site-header">
       <div className="site-container site-header-inner">
-        <Link className="brand-link" href="/" aria-label={`${name} — হোম`}>
+        <Link className="brand-link" href="/" aria-label={`${name} — home`}>
           <span className="brand-mark" aria-hidden="true">
-            ম
+            {name.charAt(0)}
           </span>
           <span>{name}</span>
         </Link>
 
-        <nav className="desktop-navigation" aria-label="প্রধান নেভিগেশন">
+        <nav className="desktop-navigation" aria-label="Main navigation">
           {NAVIGATION_ITEMS.map((item) => (
             <Link key={item.href} className="navigation-link" href={item.href}>
               {item.label}
@@ -42,14 +42,14 @@ export default function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            সময় নির্ধারণ করুন
+            Get in touch
           </a>
         ) : (
           <Link
             className="schedule-link header-schedule-link"
             href="/contact"
           >
-            সময় নির্ধারণ করুন
+            Get in touch
           </Link>
         )}
 

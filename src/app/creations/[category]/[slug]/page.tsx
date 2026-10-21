@@ -62,7 +62,7 @@ export default async function CreationPage({ params }: CreationPageProps) {
     .filter((item) => item.id !== creation.id)
     .slice(0, 3);
   const breadcrumbs: readonly BreadcrumbItem[] = [
-    { label: "সৃষ্টিকর্ম", href: "/creations" },
+    { label: "Creations", href: "/creations" },
     { label: category.name, href: `/creations/${category.slug}` },
     { label: creation.title },
   ];
@@ -75,8 +75,8 @@ export default async function CreationPage({ params }: CreationPageProps) {
         <section className="related-creations" aria-labelledby="related-heading">
           <SectionHeading
             id="related-heading"
-            eyebrow="আরও পড়ুন ও দেখুন"
-            title={`${category.name} বিভাগের আরও কাজ`}
+            eyebrow="More to read and watch"
+            title={`More from ${category.name}`}
           />
           <CreationGrid category={category} creations={relatedCreations} />
         </section>

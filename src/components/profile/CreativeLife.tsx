@@ -6,6 +6,7 @@ import {
 } from "react-icons/fi";
 import EmptyState from "@/components/ui/EmptyState";
 import SectionHeading from "@/components/ui/SectionHeading";
+import { isPlaceholderText } from "@/lib/placeholder";
 import type { ProfileSection } from "@/types/profile";
 
 interface CreativeLifeProps {
@@ -14,25 +15,19 @@ interface CreativeLifeProps {
 
 const CREATIVE_ICONS = [FiFeather, FiSun, FiHeart, FiCompass];
 
-function isPlaceholder(value: string): boolean {
-  return /লেখকের নিজস্ব বক্তব্য যোগ করুন|এখানে .*যোগ করুন/u.test(value);
-}
-
 export default function CreativeLife({ entries }: CreativeLifeProps) {
   const verifiedEntries = entries.filter(
     (entry) =>
-      !isPlaceholder(entry.title) &&
-      !isPlaceholder(entry.description) &&
-      entry.title.trim() !== "" &&
-      entry.description.trim() !== "",
+      !isPlaceholderText(entry.title) &&
+      !isPlaceholderText(entry.description),
   );
 
   return (
     <section className="profile-section" aria-labelledby="creative-life-heading">
       <SectionHeading
         id="creative-life-heading"
-        eyebrow="সৃজনশীলতা"
-        title="সৃজনশীল জীবন"
+        eyebrow="Creativity"
+        title="A creative life"
       />
       {verifiedEntries.length > 0 ? (
         <ul className="profile-card-grid">
@@ -52,8 +47,8 @@ export default function CreativeLife({ entries }: CreativeLifeProps) {
         </ul>
       ) : (
         <EmptyState
-          title="সৃজনশীল জীবনের তথ্য সংযোজনাধীন"
-          description="লেখকের নিজস্ব, যাচাইকৃত বক্তব্য পাওয়া গেলে এখানে যুক্ত করা হবে।"
+          title="Creative life details coming soon"
+          description="Verified words from the author will be published here once available."
         />
       )}
     </section>

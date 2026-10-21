@@ -4,8 +4,8 @@ export interface NavigationItem {
 }
 
 export const NAVIGATION_ITEMS: readonly NavigationItem[] = [
-  { href: "/", label: "হোম" },
-  { href: "/about", label: "পরিচিতি" },
-  { href: "/creations", label: "সৃষ্টিকর্ম" },
-  { href: "/contact", label: "যোগাযোগ" },
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/creations", label: "Creations" },
+  { href: "/contact", label: "Contact" },
 ];

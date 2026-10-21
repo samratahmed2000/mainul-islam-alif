@@ -51,7 +51,7 @@ export default function CategoryGrid({ categories }: CategoryGridProps) {
                   {category.description}
                 </span>
                 <span className="category-card-count">
-                  প্রকাশিত কাজ: {creationCount.toLocaleString("bn-BD")}টি
+                  Published works: {creationCount.toLocaleString("en-US")}
                 </span>
               </span>
               <span className="category-card-arrow" aria-hidden="true">

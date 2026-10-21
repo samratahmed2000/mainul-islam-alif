@@ -26,8 +26,8 @@ export default function EducationCard({ entries }: EducationCardProps) {
   if (visibleEntries.length === 0) {
     return (
       <EmptyState
-        title="শিক্ষাগত তথ্য সংযোজনাধীন"
-        description="যাচাইকৃত শিক্ষাগত তথ্য পাওয়া গেলে এখানে যুক্ত করা হবে।"
+        title="Education details coming soon"
+        description="Verified education information will be added here once available."
       />
     );
   }

@@ -14,21 +14,21 @@ export function validateContactForm(
   const message = data.message.trim();
 
   if (!name) {
-    errors.name = "আপনার নাম লিখুন।";
+    errors.name = "Enter your name.";
   }
 
   if (!email) {
-    errors.email = "আপনার ইমেইল ঠিকানা লিখুন।";
+    errors.email = "Enter your email address.";
   } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-    errors.email = "সঠিক ইমেইল ঠিকানা লিখুন।";
+    errors.email = "Enter a valid email address.";
   }
 
   if (digitsOnlyPhone.length < 8 || digitsOnlyPhone.length > 15) {
-    errors.phone = "৮ থেকে ১৫ সংখ্যার একটি বৈধ ফোন নম্বর লিখুন।";
+    errors.phone = "Enter a valid phone number with 8 to 15 digits.";
   }
 
   if (!message) {
-    errors.message = "আপনার বার্তা লিখুন।";
+    errors.message = "Write your message.";
   }
 
   return errors;

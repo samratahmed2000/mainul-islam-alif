@@ -1,3 +1,4 @@
+import { isPlaceholderText } from "@/lib/placeholder";
 import type { CreationMedia } from "@/types/creation";
 
 interface MediaPlayerProps {
@@ -66,13 +67,13 @@ export default function MediaPlayer({ media, title }: MediaPlayerProps) {
   return (
     <section className="creation-media" aria-labelledby="media-heading">
       <h2 id="media-heading" className="section-heading">
-        শুনুন বা দেখুন
+        Listen or watch
       </h2>
       {videoUrl && (
         <div className="creation-video-frame">
           <iframe
             src={videoUrl}
-            title={`${title} — YouTube ভিডিও`}
+            title={`${title} — YouTube video`}
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -86,15 +87,14 @@ export default function MediaPlayer({ media, title }: MediaPlayerProps) {
           controls
           preload="none"
           src={audioSource}
-          aria-label={`${title} — অডিও প্লেয়ার`}
+          aria-label={`${title} — audio player`}
         >
-          আপনার ব্রাউজার অডিও প্লেয়ার সমর্থন করে না।
+          Your browser does not support the audio player.
         </audio>
       )}
-      {media.previewText.trim() &&
-        !media.previewText.includes("যোগ করুন") && (
-          <p className="creation-media-caption">{media.previewText}</p>
-        )}
+      {media.previewText.trim() && !isPlaceholderText(media.previewText) && (
+        <p className="creation-media-caption">{media.previewText}</p>
+      )}
     </section>
   );
 }

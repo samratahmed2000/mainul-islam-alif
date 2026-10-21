@@ -35,12 +35,12 @@ export default function ContactForm() {
     setErrors(nextErrors);
 
     if (Object.keys(nextErrors).length > 0) {
-      setStatus("অনুগ্রহ করে ফর্মের ভুলগুলো ঠিক করে আবার চেষ্টা করুন।");
+      setStatus("Please fix the highlighted fields and try again.");
       return;
     }
 
     setStatus(
-      "এটি একটি প্রদর্শনী ফর্ম। বার্তাটি পাঠানো হয়নি—যোগাযোগের জন্য ইমেইল বা ফোন ব্যবহার করুন।",
+      "This is a demo form. No message was sent — use the email or phone shown to get in touch.",
     );
   }
 
@@ -48,7 +48,7 @@ export default function ContactForm() {
     <form className="contact-form" noValidate onSubmit={handleSubmit}>
       <div className="contact-form-grid">
         <label className="form-field">
-          <span>আপনার নাম</span>
+          <span>Your name</span>
           <input
             autoComplete="name"
             name="name"
@@ -65,7 +65,7 @@ export default function ContactForm() {
           )}
         </label>
         <label className="form-field">
-          <span>ইমেইল</span>
+          <span>Email</span>
           <input
             autoComplete="email"
             name="email"
@@ -83,7 +83,7 @@ export default function ContactForm() {
           )}
         </label>
         <label className="form-field">
-          <span>ফোন</span>
+          <span>Phone</span>
           <input
             autoComplete="tel"
             name="phone"
@@ -102,7 +102,7 @@ export default function ContactForm() {
           )}
         </label>
         <label className="form-field form-field-wide">
-          <span>বার্তা</span>
+          <span>Message</span>
           <textarea
             name="message"
             rows={3}
@@ -122,7 +122,7 @@ export default function ContactForm() {
         </label>
       </div>
       <button className="button button-primary" type="submit">
-        ফর্ম যাচাই করুন
+        Validate form
       </button>
       {status && (
         <p className="form-status" role="status" aria-live="polite">
@@ -130,7 +130,7 @@ export default function ContactForm() {
         </p>
       )}
       <p className="form-notice">
-        ফর্মটি এখনো কোনো সার্ভারের সঙ্গে সংযুক্ত নয়; এখানে বার্তা পাঠানো হয় না।
+        This form is not connected to a server yet; nothing is sent from here.
       </p>
     </form>
   );

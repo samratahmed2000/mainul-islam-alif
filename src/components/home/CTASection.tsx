@@ -41,10 +41,11 @@ export default function CTASection() {
             <span className="home-cta-icon" aria-hidden="true">
               <FiMessageCircle />
             </span>
-            <p className="section-eyebrow">যোগাযোগ</p>
-            <h2 className="home-cta-title">কথা ও ভাবনা ভাগ করে নিন</h2>
+            <p className="section-eyebrow">Contact</p>
+            <h2 className="home-cta-title">Have a thought to share?</h2>
             <p className="home-cta-description">
-              কোনো প্রশ্ন, মতামত বা সৃষ্টিকর্ম নিয়ে কথা বলতে যোগাযোগ করুন।
+              Questions, feedback, or a note about the work — get in touch and
+              start a conversation.
             </p>
             {isExternal ? (
               <a
@@ -53,12 +54,12 @@ export default function CTASection() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                সময় নির্ধারণ করুন
+                Schedule a call
                 <FiArrowUpRight aria-hidden="true" />
               </a>
             ) : (
               <Link className="button-primary" href={scheduleHref}>
-                যোগাযোগ করুন
+                Contact me
                 <FiArrowUpRight aria-hidden="true" />
               </Link>
             )}

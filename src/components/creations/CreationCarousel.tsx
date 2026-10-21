@@ -49,7 +49,7 @@ export default function CreationCarousel({
         ref={listRef}
         className="creation-carousel-track"
         role="region"
-        aria-label={`${category.name} সৃষ্টিকর্ম`}
+        aria-label={`${category.name} creations`}
         tabIndex={0}
         onKeyDown={handleKeyDown}
       >
@@ -66,7 +66,7 @@ export default function CreationCarousel({
           <button
             className="carousel-control"
             type="button"
-            aria-label={`${category.name}: আগের সৃষ্টিকর্ম`}
+            aria-label={`${category.name}: previous work`}
             aria-controls={listId}
             onClick={() => scrollList(-1)}
           >
@@ -75,7 +75,7 @@ export default function CreationCarousel({
           <button
             className="carousel-control"
             type="button"
-            aria-label={`${category.name}: পরের সৃষ্টিকর্ম`}
+            aria-label={`${category.name}: next work`}
             aria-controls={listId}
             onClick={() => scrollList(1)}
           >

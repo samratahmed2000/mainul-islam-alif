@@ -49,7 +49,7 @@ export default function MobileMenu({
         ref={toggleRef}
         className="mobile-menu-toggle"
         type="button"
-        aria-label={isOpen ? "মেনু বন্ধ করুন" : "মেনু খুলুন"}
+        aria-label={isOpen ? "Close menu" : "Open menu"}
         aria-expanded={isOpen}
         aria-controls="mobile-navigation"
         onClick={() => setIsOpen((open) => !open)}
@@ -60,7 +60,7 @@ export default function MobileMenu({
         ref={menuRef}
         id="mobile-navigation"
         className="mobile-navigation"
-        aria-label="মোবাইল প্রধান নেভিগেশন"
+        aria-label="Mobile main navigation"
         aria-hidden={!isOpen}
         data-open={isOpen}
       >
@@ -84,7 +84,7 @@ export default function MobileMenu({
             tabIndex={isOpen ? undefined : -1}
             onClick={closeMenu}
           >
-            সময় নির্ধারণ করুন
+            Get in touch
           </a>
         ) : (
           <Link
@@ -93,7 +93,7 @@ export default function MobileMenu({
             tabIndex={isOpen ? undefined : -1}
             onClick={closeMenu}
           >
-            সময় নির্ধারণ করুন
+            Get in touch
           </Link>
         )}
       </nav>

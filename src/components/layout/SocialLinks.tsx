@@ -51,13 +51,13 @@ export default function SocialLinks({ links }: SocialLinksProps) {
   }
 
   return (
-    <nav className="social-links" aria-label="সামাজিক যোগাযোগমাধ্যম">
+    <nav className="social-links" aria-label="Social media">
       {availableLinks.map(({ key, label, Icon, href }) => (
         <a
           key={key}
           className="social-link"
           href={href}
-          aria-label={`${label}-এ দেখুন`}
+          aria-label={`${label} (opens in a new tab)`}
           target="_blank"
           rel="noopener noreferrer"
         >

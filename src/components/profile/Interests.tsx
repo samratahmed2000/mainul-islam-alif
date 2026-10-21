@@ -6,6 +6,7 @@ import {
 } from "react-icons/fi";
 import EmptyState from "@/components/ui/EmptyState";
 import SectionHeading from "@/components/ui/SectionHeading";
+import { isPlaceholderText } from "@/lib/placeholder";
 import type { ProfileSection } from "@/types/profile";
 
 interface InterestsProps {
@@ -14,25 +15,19 @@ interface InterestsProps {
 
 const INTEREST_ICONS = [FiBookOpen, FiMusic, FiEdit3, FiZap];
 
-function isPlaceholder(value: string): boolean {
-  return /ব্যক্তির প্রকৃত পছন্দ অনুযায়ী সম্পাদনা করুন|এখানে .*যোগ করুন/u.test(value);
-}
-
 export default function Interests({ entries }: InterestsProps) {
   const verifiedEntries = entries.filter(
     (entry) =>
-      !isPlaceholder(entry.title) &&
-      !isPlaceholder(entry.description) &&
-      entry.title.trim() !== "" &&
-      entry.description.trim() !== "",
+      !isPlaceholderText(entry.title) &&
+      !isPlaceholderText(entry.description),
   );
 
   return (
     <section className="profile-section" aria-labelledby="interests-heading">
       <SectionHeading
         id="interests-heading"
-        eyebrow="ব্যক্তিগত আগ্রহ"
-        title="আগ্রহ ও শখ"
+        eyebrow="Personal interests"
+        title="Interests and pastimes"
       />
       {verifiedEntries.length > 0 ? (
         <ul className="profile-card-grid">
@@ -52,8 +47,8 @@ export default function Interests({ entries }: InterestsProps) {
         </ul>
       ) : (
         <EmptyState
-          title="আগ্রহ ও শখের তথ্য সংযোজনাধীন"
-          description="ব্যক্তির নিশ্চিত করা পছন্দ ও আগ্রহ পাওয়া গেলে এখানে যুক্ত করা হবে।"
+          title="Interests coming soon"
+          description="The author's confirmed interests and pastimes will be added here."
         />
       )}
     </section>

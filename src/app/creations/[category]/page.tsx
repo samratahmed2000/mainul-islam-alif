@@ -49,19 +49,19 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   return (
     <Container className="catalog-page">
       <header className="catalog-heading">
-        <p className="section-eyebrow">সৃষ্টিকর্মের বিভাগ</p>
+        <p className="section-eyebrow">Collection</p>
         <h1 className="catalog-title">{category.name}</h1>
         <p className="catalog-description">{category.description}</p>
         <p className="catalog-count">
-          প্রকাশিত সৃষ্টিকর্ম: {creations.length.toLocaleString("bn-BD")}টি
+          Published works: {creations.length.toLocaleString("en-US")}
         </p>
       </header>
       {creations.length > 0 ? (
         <CreationGrid category={category} creations={creations} />
       ) : (
         <EmptyState
-          title={`${category.name} বিভাগে প্রকাশিত কাজ নেই`}
-          description="যাচাইকৃত সৃষ্টিকর্ম প্রকাশিত হলে এখানে দেখা যাবে।"
+          title={`No published work in ${category.name} yet`}
+          description="Verified work will appear here once it is published."
         />
       )}
     </Container>

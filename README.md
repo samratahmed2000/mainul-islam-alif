@@ -1,59 +1,81 @@
-# মাইনুল ইসলাম আলিফ — পোর্টফোলিও
+# Mainul Islam Alif — Portfolio
 
-বাংলা ভাষার ব্যক্তিগত পরিচিতি ও সৃষ্টিকর্মের ক্যাটালগ। প্রকল্পটি Next.js App Router, React, TypeScript, Tailwind CSS এবং `db.json`-ভিত্তিক প্রাথমিক কনটেন্ট ব্যবহার করে।
+An English-language personal portfolio and creative catalogue. The project uses the Next.js App Router, React, TypeScript, Tailwind CSS, and editable content in `db.json`.
 
-## চালানো
+## Running the project
 
-Node.js ইনস্টল করে প্রকল্পের মূল ফোল্ডারে চালান:
+Install Node.js, then run these commands from the project root:
 
 ```powershell
 npm install
 npm run dev
 ```
 
-স্থানীয় সাইট সাধারণত `http://localhost:3000`-এ চলবে। অন্যান্য কমান্ড:
+The local site usually runs at `http://localhost:3000`. Other commands:
 
-| কমান্ড | কাজ |
+| Command | Purpose |
 | --- | --- |
-| `npm run lint` | ESLint চালায় |
-| `npx tsc --noEmit` | TypeScript যাচাই করে |
-| `npm run build` | প্রোডাকশন বিল্ড তৈরি করে |
-| `npm run start` | প্রোডাকশন বিল্ড চালায় |
+| `npm run lint` | Runs ESLint |
+| `npx tsc --noEmit` | Checks TypeScript |
+| `npm run build` | Creates a production build |
+| `npm run start` | Runs the production build |
 
-## সাইটের URL ও SEO
+## Site URL and SEO
 
-প্রোডাকশনে ডিপ্লয় করার আগে প্রকৃত সাইটের origin দিয়ে `SITE_URL` সেট করুন, যেমন:
+Before deploying to production, set `SITE_URL` to the real site origin:
 
 ```env
 SITE_URL=https://your-verified-domain.example
 ```
 
-এটি `.env.local`-এ স্থানীয়ভাবে বা ডিপ্লয়মেন্ট প্ল্যাটফর্মের environment settings-এ যোগ করুন। ডোমেইন ও protocol প্রকৃত হওয়া নিশ্চিত করুন, তারপর প্রোডাকশন বিল্ড তৈরি করুন। এই মান থেকে canonical URL, Open Graph origin এবং sitemap তৈরি হয়। `SITE_URL` না থাকলে ভুল বা অনুমানভিত্তিক domain প্রকাশ না করতে sitemap ফাঁকা থাকে এবং canonical URL তৈরি হয় না।
+Add it in `.env.local` locally or in the deployment platform's environment settings. Make sure the domain and protocol are real, then create the production build. This value drives canonical URLs, the Open Graph origin, and the sitemap. Without `SITE_URL`, canonical URLs are omitted and the sitemap stays empty rather than publishing an invented domain.
 
-## কনটেন্ট সম্পাদনা
+## Editing content
 
-- `db.json` প্রাথমিক editable content source। সাইটের তথ্য, profile, category এবং creation এখানে রক্ষণাবেক্ষণ করুন।
-- সৃষ্টিকর্মের `status` `draft`, `published` অথবা `archived` হতে পারে। যাচাইকৃত নয় এমন নমুনা `draft` রাখুন; প্রকাশিত পাতায়, সার্চ-সম্পর্কিত metadata ও sitemap-এ কেবল `published` কাজ অন্তর্ভুক্ত হয়।
-- Creation-এর `categoryId` অবশ্যই বিদ্যমান category ID হতে হবে; ID ও slug অনন্য রাখুন।
-- যোগাযোগের ইমেইল, ফোন, ঠিকানা, availability ও সামাজিক URL `site`-এর অধীনে সম্পাদনা করুন। ফাঁকা বা অবৈধ যোগাযোগ URL স্বয়ংক্রিয়ভাবে লিংক হিসেবে দেখানো হয় না।
-- `public/`-এ image যোগ করুন এবং `db.json`-এর image path-এ `/images/...`-এর মতো public URL ব্যবহার করুন। অনুপস্থিত image-এর জন্য UI fallback রয়েছে।
+- `db.json` is the primary editable content source. Keep site settings, profile information, categories, and creations there.
+- Creation `status` can be `draft`, `published`, or `archived`. Keep unverified templates as `draft`; only `published` work appears on public pages, search metadata, and the sitemap.
+- A creation's `categoryId` must reference an existing category ID. Keep IDs and slugs unique.
+- Edit the contact email, phone, address, availability, and social URLs under `site`. Blank or invalid contact URLs are not rendered as links.
+- Add images to `public/` and reference them with public paths such as `/images/...` in `db.json`. The interface includes fallbacks for missing images.
+
+### Before publishing verified content
+
+The current `db.json` contains 72 seed creation records and six clearly marked demo records used to test the catalogue layout; all 78 are `draft`. Profile biography text is still editable instruction copy, all five career entries have blank organisation and period values, and all five education entries have a blank institution. Do not present these as real facts.
+
+The six extra demo records use IDs starting with `demo-` and titles prefixed with "Demo". They contain original fictional samples for interface review only: not real work, not for sale, and never shown on public pages, metadata, or the sitemap. Do not publish them when adding real work; remove them if they are no longer needed.
+
+When real information is available, update only the relevant fields:
+
+- **Profile:** verified short introduction, background, personality, professional summary, and writing/music overview; career role, organisation, period, and description; education degree, institution, department, year, and result; creative life, interests, and the person's own paragraphs.
+- **Creations:** real titles, categories, short and full descriptions, publication dates (if any), covers, creator/rights, and verified media URLs or previews. Keep work as `draft` until the work and publication permission are confirmed; publish only after verification.
+- **Contact:** confirm the email, phone, address, and social URLs approved for publication. Verify the current `db.json` values with the owner before publishing them.
+- **Images:** `public/` still contains no images. Expected replacement paths are `/images/logo.svg`, `/images/profile/hero.jpg`, `/images/profile/profile.jpg`, `/images/cta/cta.jpg`, and, for published creations, each work's own verified cover path instead of `/images/creations/placeholder-cover.jpg`. Only supply images whose use rights are confirmed.
+
+Submit data and it can be validated together against the existing typed fields and category IDs. Missing information will not be invented; optional fields may stay blank.
+
+## Theme and typography
+
+- The interface follows the supplied reference: deep forest-green hero and footer bands, a warm cream page surface, white rounded cards, amber accent buttons, wave-shaped section edges, and small four-point sparkles.
+- Typography uses Poppins, loaded with `next/font/google` in `src/app/layout.tsx` and applied through `--font-body`.
+- Theme tokens live in `:root` in `src/app/globals.css` (`--color-forest-*`, `--color-accent`, `--color-cream-*`). Components use semantic classes such as `site-container` and `creation-card` rather than utility classes.
+- All user-facing copy, dates, and counts use English (`en-US`). Keep new copy natural English.
 
 ## Route map
 
-| Route | বিষয় |
+| Route | Purpose |
 | --- | --- |
-| `/` | পরিচিতি, সৃষ্টিকর্মের বিভাগ ও যোগাযোগ CTA |
-| `/about` | প্রোফাইল ও পটভূমি |
-| `/creations` | সৃষ্টিকর্মের বিভাগ |
-| `/creations/[category]` | একটি বিভাগের প্রকাশিত কাজ |
-| `/creations/[category]/[slug]` | প্রকাশিত কাজের বিস্তারিত |
-| `/contact` | যোগাযোগের তথ্য ও প্রদর্শনী ফর্ম |
-| `/privacy` | প্রদর্শনী ফর্মের তথ্য ব্যবহারের বিবরণ |
-| `/robots.txt`, `/sitemap.xml` | crawler নির্দেশনা ও sitemap |
+| `/` | Introduction, six creation shelves, contact CTA |
+| `/about` | Profile and background |
+| `/creations` | All creation categories |
+| `/creations/[category]` | Published work in one category |
+| `/creations/[category]/[slug]` | Published work detail |
+| `/contact` | Contact details and demo form |
+| `/privacy` | Information about the demo form |
+| `/robots.txt`, `/sitemap.xml` | Crawler guidance and sitemap |
 
-## বর্তমান সীমাবদ্ধতা
+## Current limitations
 
-- Seed creation-গুলো draft থাকলে সৃষ্টিকর্মের তালিকা ও বিভাগে খালি অবস্থার বার্তা দেখা যায়।
-- যোগাযোগ ফর্মটি শুধু browser-এ input যাচাই করে; এটি বার্তা পাঠায় বা সংরক্ষণ করে না। কার্যকর submission-এর আগে backend/email integration ও সংশ্লিষ্ট গোপনীয়তা বিবরণ যোগ করতে হবে।
-- কেনাকাটা, পেমেন্ট ও সুরক্ষিত download এখনো সংযুক্ত নয়; কোনো private file URL public কনটেন্টে রাখা যাবে না।
-- প্রোফাইলের placeholder তথ্য যাচাই করে প্রতিস্থাপন করতে হবে; যাচাই না হওয়া তথ্যকে বাস্তব জীবনী হিসেবে প্রকাশ করবেন না।
+- With seed creations left as drafts, the catalog and category pages show empty states.
+- The contact form only validates input in the browser; it does not send or store messages. A backend/email integration and matching privacy details are needed before a working submission.
+- Shopping, payment, and protected downloads are not connected; private file URLs must never appear in public content.
+- Profile placeholders must be replaced with verified information. Do not present unverified material as a real biography.

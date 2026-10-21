@@ -1,5 +1,6 @@
 import { FiBookOpen } from "react-icons/fi";
 import ContentImage from "@/components/ui/ContentImage";
+import { isPlaceholderText } from "@/lib/placeholder";
 import type { Category } from "@/types/category";
 import type { Creation } from "@/types/creation";
 import MediaPlayer from "./MediaPlayer";
@@ -20,7 +21,7 @@ function getPublishedDate(value: string): string | undefined {
     return undefined;
   }
 
-  return date.toLocaleDateString("bn-BD", {
+  return date.toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
     day: "numeric",
@@ -30,7 +31,7 @@ function getPublishedDate(value: string): string | undefined {
 
 function getCreator(value: string): string | undefined {
   const creator = value.trim();
-  if (!creator || creator === "লেখকের নাম") {
+  if (isPlaceholderText(creator)) {
     return undefined;
   }
 
@@ -64,7 +65,7 @@ export default function CreationDetail({
             {publishedDate && (
               <time dateTime={creation.publishedAt}>{publishedDate}</time>
             )}
-            {creator && <span>স্রষ্টা: {creator}</span>}
+            {creator && <span>Creator: {creator}</span>}
           </div>
         )}
       </header>
@@ -76,7 +77,7 @@ export default function CreationDetail({
           <div className="creation-detail-cover">
             <ContentImage
               src={creation.coverImage}
-              alt={`${creation.title} — প্রচ্ছদ`}
+              alt={`${creation.title} — cover`}
               sizes="(max-width: 48rem) 100vw, 42rem"
               className="creation-detail-image"
               fallback={<FiBookOpen aria-hidden="true" />}

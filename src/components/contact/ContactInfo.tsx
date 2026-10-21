@@ -10,13 +10,13 @@ export default function ContactInfo() {
 
   return (
     <section className="contact-info-panel" aria-labelledby="contact-info-heading">
-      <h2 id="contact-info-heading">সরাসরি যোগাযোগ</h2>
+      <h2 id="contact-info-heading">Direct contact</h2>
       <ul className="contact-info-list">
         {emailHref && (
           <li>
             <FiMail aria-hidden="true" focusable="false" />
             <div>
-              <span>ইমেইল</span>
+              <span>Email</span>
               <a href={emailHref}>{contact.email.trim()}</a>
             </div>
           </li>
@@ -25,7 +25,7 @@ export default function ContactInfo() {
           <li>
             <FiPhone aria-hidden="true" focusable="false" />
             <div>
-              <span>ফোন</span>
+              <span>Phone</span>
               <a href={phoneHref}>{contact.phone.trim()}</a>
             </div>
           </li>
@@ -34,7 +34,7 @@ export default function ContactInfo() {
           <li>
             <FiMapPin aria-hidden="true" focusable="false" />
             <div>
-              <span>ঠিকানা</span>
+              <span>Address</span>
               <p>{contact.address.trim()}</p>
             </div>
           </li>
@@ -46,7 +46,7 @@ export default function ContactInfo() {
       <SocialLinks links={socialLinks} />
       {!emailHref && !phoneHref && !contact.address.trim() && (
         <p className="contact-info-empty">
-          যোগাযোগের তথ্য যোগ করা হলে এখানে দেখা যাবে।
+          Contact details will appear here once they are added.
         </p>
       )}
     </section>

@@ -7,9 +7,9 @@ import { getCategories, getPublishedCreations } from "@/lib/data";
 import { getCanonicalUrl } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "হোম",
+  title: "Home",
   description:
-    "মাইনুল ইসলাম আলিফের পরিচিতি, লেখা, বই, ইসলামী সংগীত ও সৃষ্টিকর্মের সংগ্রহ।",
+    "The personal introduction, writing, books, Islamic music, and creative archive of Mainul Islam Alif.",
   alternates: {
     canonical: getCanonicalUrl("/"),
   },

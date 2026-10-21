@@ -13,8 +13,8 @@ import { getCanonicalUrl } from "@/lib/seo";
 const site = getSiteSettings();
 
 export const metadata: Metadata = {
-  title: "পরিচিতি",
-  description: `${site.name} — ${site.designation}। ${site.tagline}`,
+  title: "About",
+  description: `${site.name} — ${site.designation}. ${site.tagline}`,
   alternates: {
     canonical: getCanonicalUrl("/about"),
   },
@@ -30,8 +30,8 @@ export default function AboutPage() {
         <section className="profile-section" aria-labelledby="journey-heading">
           <SectionHeading
             id="journey-heading"
-            eyebrow="পেশাগত জীবন"
-            title="পেশাগত যাত্রা"
+            eyebrow="Professional life"
+            title="Professional journey"
           />
           <JourneyCard entries={profile.professionalJourney} />
         </section>
@@ -39,8 +39,8 @@ export default function AboutPage() {
         <section className="profile-section" aria-labelledby="education-heading">
           <SectionHeading
             id="education-heading"
-            eyebrow="শিক্ষাজীবন"
-            title="শিক্ষাগত যোগ্যতা"
+            eyebrow="Education"
+            title="Academic background"
           />
           <EducationCard entries={profile.education} />
         </section>

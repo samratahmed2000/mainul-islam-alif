@@ -8,8 +8,8 @@ import { getCanonicalUrl } from "@/lib/seo";
 const site = getSiteSettings();
 
 export const metadata: Metadata = {
-  title: "যোগাযোগ",
-  description: `${site.name}-এর সঙ্গে যোগাযোগের তথ্য ও প্রদর্শনী যোগাযোগ ফর্ম।`,
+  title: "Contact",
+  description: `Contact details and demo contact form for ${site.name}.`,
   alternates: {
     canonical: getCanonicalUrl("/contact"),
   },
@@ -19,11 +19,11 @@ export default function ContactPage() {
   return (
     <Container className="contact-page">
       <header className="contact-page-heading">
-        <p className="section-eyebrow">যোগাযোগ</p>
-        <h1 className="section-heading">আপনার কথা জানাতে পারেন</h1>
+        <p className="section-eyebrow">Contact</p>
+        <h1 className="section-heading">I would love to hear from you</h1>
         <p className="section-description">
-          সরাসরি যোগাযোগের তথ্য ব্যবহার করুন। নিচের ফর্মটি বর্তমানে প্রদর্শনীর
-          জন্য; এটি কোনো বার্তা পাঠায় না।
+          Use the direct contact details for a real conversation. The form below
+          is currently a demo and does not send messages.
         </p>
       </header>
       <div className="contact-page-grid">
@@ -32,10 +32,10 @@ export default function ContactPage() {
           className="contact-form-panel"
           aria-labelledby="contact-form-heading"
         >
-          <h2 id="contact-form-heading">প্রদর্শনী ফর্ম</h2>
+          <h2 id="contact-form-heading">Demo form</h2>
           <p>
-            ফর্মটি যাচাই করা হলেও বার্তা সার্ভারে পাঠানো বা সংরক্ষণ করা হয় না।
-            যোগাযোগের জন্য ইমেইল বা ফোন ব্যবহার করুন।
+            The form validates your input in the browser, but nothing is sent or
+            stored on a server. Please use the email or phone number instead.
           </p>
           <ContactForm />
         </section>
